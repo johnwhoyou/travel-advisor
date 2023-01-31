@@ -1,0 +1,15 @@
+#!/bin/bash
+# bash script to init environment on replit.com
+clear
+echo "Welcome to SWI-Prolog!"
+echo " "
+export PATH=$PWD/bin:$PATH
+# we need to export the library path so swipl can 
+# find the shared library objects in forked instances
+export LD_LIBRARY_PATH=$PWD/lib/swipl/lib/x86_64-linux
+cd programs
+echo "Available Example Programs:"
+ls *.pl
+echo " "
+echo "To run a program: swipl <prog name>.pl"
+echo "To just start the intperpreter type swipl"

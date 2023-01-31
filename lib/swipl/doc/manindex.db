@@ -1,0 +1,1396 @@
+/*  Generated manual index.
+    Do not edit.
+*/
+
+i(section(0,'0','packages/clib.html'),"SWI-Prolog C-library",swi_man_packages('clib.html'),packages,2772).
+i(section(2,'1','sec:clib-intro'),"Introduction",swi_man_packages('clib.html'),packages,7959).
+i(section(2,'2','sec:process'),"library(process): Create processes and redirect I/O",swi_man_packages('clib.html'),packages,8914).
+i(/(process_create,3),"Create a new process running the file Exe and using arguments from the given list.",swi_man_packages('clib.html'),packages,11129).
+i(/(process_id,1),"True if PID is the process id of the running Prolog process.",swi_man_packages('clib.html'),packages,19315).
+i(/(process_id,2),"PID is the process id of Process.",swi_man_packages('clib.html'),packages,19659).
+i(/(is_process,1),"True if PID might be a process.",swi_man_packages('clib.html'),packages,19948).
+i(/(process_release,1),"Release process handle.",swi_man_packages('clib.html'),packages,20186).
+i(/(process_wait,2),"True if PID completed with Status.",swi_man_packages('clib.html'),packages,20418).
+i(/(process_wait,3),"True if PID completed with Status.",swi_man_packages('clib.html'),packages,20418).
+i(/(process_kill,1),"Send signal to process PID.",swi_man_packages('clib.html'),packages,21924).
+i(/(process_kill,2),"Send signal to process PID.",swi_man_packages('clib.html'),packages,21924).
+i(/(process_group_kill,1),"Send signal to the group containing process PID.",swi_man_packages('clib.html'),packages,22999).
+i(/(process_group_kill,2),"Send signal to the group containing process PID.",swi_man_packages('clib.html'),packages,22999).
+i(/(process_set_method,1),"Determine how the process is created on Unix systems.",swi_man_packages('clib.html'),packages,23723).
+i(section(2,'3','sec:filesex'),"library(filesex): Extended operations on files",swi_man_packages('clib.html'),packages,25605).
+i(/(set_time_file,3),"Query and set POSIX time attributes of a file.",swi_man_packages('clib.html'),packages,26375).
+i(/(link_file,3),"Create a link in the filesystem from NewPath to OldPath.",swi_man_packages('clib.html'),packages,27690).
+i(/(relative_file_name,3),"True when RelPath is Path, relative to the file RelToFile.",swi_man_packages('clib.html'),packages,28436).
+i(/(directory_file_path,3),"True when Path is the full path-name for File in Dir.",swi_man_packages('clib.html'),packages,30073).
+i(/(directory_member,3),"True when Member is a path inside Directory.",swi_man_packages('clib.html'),packages,30920).
+i(/(copy_file,2),"Copy a file into a new file or directory.",swi_man_packages('clib.html'),packages,33012).
+i(/(make_directory_path,1),"Create Dir and all required components (like mkdir -p).",swi_man_packages('clib.html'),packages,33250).
+i(/(copy_directory,2),"Copy the contents of the directory From to To (recursively).",swi_man_packages('clib.html'),packages,33535).
+i(/(delete_directory_and_contents,1),"Recursively remove the directory Dir and its contents.",swi_man_packages('clib.html'),packages,33988).
+i(/(delete_directory_contents,1),"Remove all content from directory Dir, without removing Dir itself.",swi_man_packages('clib.html'),packages,34408).
+i(/(chmod,2),"Set the mode of the target file.",swi_man_packages('clib.html'),packages,34862).
+i(section(2,'4','sec:uid'),"library(uid): User and group management on Unix systems",swi_man_packages('clib.html'),packages,35677).
+i(/(getuid,1),"UID is the real user ID of the calling process.",swi_man_packages('clib.html'),packages,36536).
+i(/(getgid,1),"GID is the real group ID of the calling process.",swi_man_packages('clib.html'),packages,36742).
+i(/(geteuid,1),"UID is the effective user ID of the calling process.",swi_man_packages('clib.html'),packages,36949).
+i(/(getegid,1),"GID is the effective group ID of the calling process.",swi_man_packages('clib.html'),packages,37162).
+i(/(getgroups,1),"GroupsIDs is the set of supplementary group IDs of the calling process.",swi_man_packages('clib.html'),packages,37376).
+i(/(user_info,2),"UserData represent the passwd information for User.",swi_man_packages('clib.html'),packages,37786).
+i(/(user_data,3),"Value is the value for Field in UserData.",swi_man_packages('clib.html'),packages,38211).
+i(/(group_info,2),"GroupData represent the group information for Group.",swi_man_packages('clib.html'),packages,39126).
+i(/(group_data,3),"Value is the value for Field GroupData.",swi_man_packages('clib.html'),packages,39561).
+i(/(setuid,1),"Set the user id of the calling process.",swi_man_packages('clib.html'),packages,40233).
+i(/(seteuid,1),"Set the effective user id of the calling process.",swi_man_packages('clib.html'),packages,40385).
+i(/(setgid,1),"Set the group id of the calling process.",swi_man_packages('clib.html'),packages,40549).
+i(/(setegid,1),"Set the effective group id of the calling process.",swi_man_packages('clib.html'),packages,40702).
+i(/(initgroups,2),"Initialise the group access list of the calling process to the registered groups for User and the group Group.",swi_man_packages('clib.html'),packages,40867).
+i(/(setgroups,1),"Set the group access list of the caling process to the indicated groups.",swi_man_packages('clib.html'),packages,41234).
+i(/(set_user_and_group,1),"Set the UID and GID to the User.",swi_man_packages('clib.html'),packages,41545).
+i(/(set_user_and_group,2),"Set the UID and GID to the User.",swi_man_packages('clib.html'),packages,41545).
+i(section(2,'5','sec:syslog'),"library(syslog): Unix syslog interface",swi_man_packages('clib.html'),packages,42279).
+i(/(openlog,3),"Open system log.",swi_man_packages('clib.html'),packages,43716).
+i(/(syslog,2),"Send a message to the system log.",swi_man_packages('clib.html'),packages,44910).
+i(/(syslog,3),"Send a formatted message to the system log if system logging is opened using openlog/3.",swi_man_packages('clib.html'),packages,45573).
+i(/(closelog,0),"Close the system log.",swi_man_packages('clib.html'),packages,46124).
+i(:(prolog,/(debug_print_hook,3)),"Integration of debug/3 with the syslog facility.",swi_man_packages('clib.html'),packages,46280).
+i(section(2,'6','sec:socket'),"library(socket): Network socket (TCP and UDP) library",swi_man_packages('clib.html'),packages,46983).
+i(section(3,'6.1','sec:socket-server'),"Client applications",swi_man_packages('clib.html'),packages,47954).
+i(section(3,'6.2','sec:socket-client'),"Server applications",swi_man_packages('clib.html'),packages,48887).
+i(section(3,'6.3','sec:socket-exceptions'),"Socket exceptions",swi_man_packages('clib.html'),packages,50729).
+i(section(3,'6.4','sec:socket-predicates'),"TCP socket predicates",swi_man_packages('clib.html'),packages,51846).
+i(/(tcp_socket,1),"Creates an INET-domain stream-socket and unifies an identifier to it with SocketId.",swi_man_packages('clib.html'),packages,52047).
+i(/(tcp_close_socket,1),"Closes the indicated socket, making SocketId invalid.",swi_man_packages('clib.html'),packages,52404).
+i(/(tcp_open_socket,2),"Create streams to communicate to SocketId.",swi_man_packages('clib.html'),packages,53551).
+i(/(tcp_open_socket,3),"Similar to tcp_open_socket/2, but creates two separate sockets where tcp_open_socket/2 would have created a stream pair.",swi_man_packages('clib.html'),packages,54430).
+i(/(tcp_bind,2),"Bind the socket to Address on the current machine.",swi_man_packages('clib.html'),packages,55058).
+i(/(tcp_listen,2),"Tells, after tcp_bind/2, the socket to listen for incoming requests for connections.",swi_man_packages('clib.html'),packages,56136).
+i(/(tcp_accept,3),"This predicate waits on a server socket for a connection request by a client.",swi_man_packages('clib.html'),packages,56796).
+i(/(tcp_connect,2),"Connect SocketId.",swi_man_packages('clib.html'),packages,57358).
+i(/(tcp_connect,4),"Connect a (client) socket to Address and return a bi-directional connection through the stream-handles Read and Write.",swi_man_packages('clib.html'),packages,58557).
+i(/(tcp_connect,3),"Establish a TCP communication as a client.",swi_man_packages('clib.html'),packages,59565).
+i(/(tcp_select,3),"Same as the built-in wait_for_input/3.",swi_man_packages('clib.html'),packages,61789).
+i(/(try_proxy,4),"Attempt a socket-level connection via the given proxy to TargetAddress.",swi_man_packages('clib.html'),packages,62483).
+i(/(proxy_for_url,3),"This hook can be implemented to return a proxy to try when connecting to URL.",swi_man_packages('clib.html'),packages,63628).
+i(/(tcp_setopt,2),"Set options on the socket.",swi_man_packages('clib.html'),packages,64936).
+i(/(tcp_fcntl,3),"Interface to the fcntl() call.",swi_man_packages('clib.html'),packages,68512).
+i(/(tcp_getopt,2),"Get information about Socket.",swi_man_packages('clib.html'),packages,69185).
+i(/(tcp_host_to_address,2),"Translate between a machines host-name and it's (IP-)address.",swi_man_packages('clib.html'),packages,69703).
+i(/(gethostname,1),"Return the canonical fully qualified name of this host.",swi_man_packages('clib.html'),packages,70548).
+i(/(negotiate_socks_connection,2),"Negotiate a connection to DesiredEndpoint over StreamPair.",swi_man_packages('clib.html'),packages,70893).
+i(section(3,'6.5','sec:af-unix-sockets'),"Unix domain sockets",swi_man_packages('clib.html'),packages,71478).
+i(/(unix_domain_socket,1),"Creates an AF_UNIX-domain stream-socket and unifies an identifier to it with Socket.",swi_man_packages('clib.html'),packages,72027).
+i(section(3,'6.6','sec:udp-sockets'),"UDP protocol support",swi_man_packages('clib.html'),packages,73185).
+i(/(udp_socket,1),"Similar to tcp_socket/1, but create a socket using the SOCK_DGRAM protocol, ready for UDP connections.",swi_man_packages('clib.html'),packages,74176).
+i(/(udp_receive,4),"Wait for and return the next datagram.",swi_man_packages('clib.html'),packages,74487).
+i(/(udp_send,4),"Send a UDP message.",swi_man_packages('clib.html'),packages,75881).
+i(section(2,'7','sec:stream-pools'),"The stream_pool library",swi_man_packages('clib.html'),packages,77018).
+i(/(add_stream_to_pool,2),"Add Stream, which must be an input stream and ---on non-unix systems--- connected to a socket to the pool.",swi_man_packages('clib.html'),packages,77985).
+i(/(delete_stream_from_pool,1),"Delete the given stream from the pool.",swi_man_packages('clib.html'),packages,78323).
+i(/(close_stream_pool,0),"Empty the pool, closing all streams that are part of it.",swi_man_packages('clib.html'),packages,78777).
+i(/(dispatch_stream_pool,1),"Wait for maximum of TimeOut for input on any of the streams in the pool.",swi_man_packages('clib.html'),packages,78951).
+i(/(stream_pool_main_loop,0),"Calls dispatch_stream_pool/1 in a loop until the pool is empty.",swi_man_packages('clib.html'),packages,79859).
+i(section(2,'8','sec:uri'),"library(uri): Process URIs",swi_man_packages('clib.html'),packages,80893).
+i(/(uri_components,2),"Break a URI into its 5 basic components according to the RFC-3986 regular expression: ^(([^:/?#]+):)?(//([^/?#]*))?([^?#]*)(\\?([^#]*))?(#(.*))?",swi_man_packages('clib.html'),packages,81916).
+i(/(uri_data,3),"Provide access the uri_component structure.",swi_man_packages('clib.html'),packages,82869).
+i(/(uri_data,4),"NewComponents is the same as Components with Field set to Data.",swi_man_packages('clib.html'),packages,83227).
+i(/(uri_normalized,2),"NormalizedURI is the normalized form of URI.",swi_man_packages('clib.html'),packages,83530).
+i(/(iri_normalized,2),"NormalizedIRI is the normalized form of IRI.",swi_man_packages('clib.html'),packages,83988).
+i(/(uri_normalized_iri,2),"As uri_normalized/2, but percent-encoding is translated into IRI Unicode characters.",swi_man_packages('clib.html'),packages,84596).
+i(/(uri_is_global,1),"True if URI has a scheme.",swi_man_packages('clib.html'),packages,85258).
+i(/(uri_resolve,3),"Resolve a possibly local URI relative to Base.",swi_man_packages('clib.html'),packages,85956).
+i(/(uri_normalized,3),"NormalizedGlobalURI is the normalized global version of URI.",swi_man_packages('clib.html'),packages,86387).
+i(/(iri_normalized,3),"NormalizedGlobalIRI is the normalized global version of IRI.",swi_man_packages('clib.html'),packages,86868).
+i(/(uri_normalized_iri,3),"NormalizedGlobalIRI is the normalized global IRI of URI.",swi_man_packages('clib.html'),packages,87268).
+i(/(uri_query_components,2),"Perform encoding and decoding of an URI query string.",swi_man_packages('clib.html'),packages,87757).
+i(/(uri_authority_components,2),"Break-down the authority component of a URI.",swi_man_packages('clib.html'),packages,88637).
+i(/(uri_authority_data,3),"Provide access the uri_authority structure.",swi_man_packages('clib.html'),packages,89206).
+i(/(uri_encoded,3),"Encoded is the URI encoding for Value.",swi_man_packages('clib.html'),packages,89556).
+i(/(uri_iri,2),"Convert between a URI, encoded in US-ASCII and an IRI.",swi_man_packages('clib.html'),packages,90759).
+i(/(uri_file_name,2),"Convert between a URI and a local file_name.",swi_man_packages('clib.html'),packages,91441).
+i(section(2,'9','sec:cgi'),"CGI Support library",swi_man_packages('clib.html'),packages,92001).
+i(/(cgi_get_form,1),"Decodes standard input and the environment variables to obtain a list of arguments passed to the CGI script.",swi_man_packages('clib.html'),packages,92275).
+i(section(3,'9.1','sec:cgi-considerations'),"Some considerations",swi_man_packages('clib.html'),packages,93835).
+i(section(2,'10','sec:crypt'),"Password encryption library",swi_man_packages('clib.html'),packages,95145).
+i(/(crypt,2),"This predicate can be used in three modes.",swi_man_packages('clib.html'),packages,95598).
+i(section(2,'11','sec:sha'),"SHA* Secure Hash Algorithms",swi_man_packages('clib.html'),packages,98379).
+i(/(sha_hash,3),"Hash is the SHA hash of Data.",swi_man_packages('clib.html'),packages,100388).
+i(/(hmac_sha,4),"Quoting Wikipedia: “A keyed-hash message authentication code, or HMAC, is a type of message authentication code (MAC) calculated using a cryptographic hash function in combination with a secret key.",swi_man_packages('clib.html'),packages,101760).
+i(/(hash_atom,2),"True when HexAtom is the commonly used hexadecimal encoding of the hash code.",swi_man_packages('clib.html'),packages,103066).
+i(section(3,'11.1','sec:sha-license'),"License terms",swi_man_packages('clib.html'),packages,103500).
+i(section(2,'12','sec:md5'),"library(md5): MD5 hashes",swi_man_packages('clib.html'),packages,104665).
+i(/(md5_hash,3),"Hash is the MD5 hash of Data, The conversion is controlled by Options: encoding(+Encoding)If Data is a sequence of character codes, this must be translated into a sequence of bytes, because that is what the hashing requires.",swi_man_packages('clib.html'),packages,105207).
+i(section(2,'13','sec:hashstream'),"library(hash_stream): Maintain a hash on a stream",swi_man_packages('clib.html'),packages,106165).
+i(/(open_hash_stream,3),"Open a filter stream on OrgStream that maintains a hash.",swi_man_packages('clib.html'),packages,108374).
+i(/(stream_hash,2),"Unify Digest with a hash for the bytes send to or read from HashStream.",swi_man_packages('clib.html'),packages,109220).
+i(section(2,'14','sec:memory-files'),"Memory files",swi_man_packages('clib.html'),packages,109823).
+i(/(new_memory_file,1),"Create a new memory file and return a unique opaque handle to it.",swi_man_packages('clib.html'),packages,111082).
+i(/(free_memory_file,1),"Discard the memory file and its contents.",swi_man_packages('clib.html'),packages,111281).
+i(/(open_memory_file,3),"Open the memory-file.",swi_man_packages('clib.html'),packages,111499).
+i(/(open_memory_file,4),"Open a memory-file as open_memory_file/3.",swi_man_packages('clib.html'),packages,112428).
+i(/(size_memory_file,2),"Return the content-length of the memory-file in characters in the current encoding of the memory file.",swi_man_packages('clib.html'),packages,113742).
+i(/(size_memory_file,3),"Return the content-length of the memory-file in characters in the given Encoding.",swi_man_packages('clib.html'),packages,114034).
+i(/(atom_to_memory_file,2),"Turn an atom into a read-only memory-file containing the (shared) characters of the atom.",swi_man_packages('clib.html'),packages,114325).
+i(/(insert_memory_file,3),"Insert Data into the memory file at location Offset.",swi_man_packages('clib.html'),packages,114645).
+i(/(delete_memory_file,3),"Delete a Length characters from the memory file, starting at Offset.",swi_man_packages('clib.html'),packages,115240).
+i(/(memory_file_to_atom,2),"Return the content of the memory-file in Atom.",swi_man_packages('clib.html'),packages,115668).
+i(/(memory_file_to_atom,3),"Return the content of the memory-file in Atom, pretending the data is in the given Encoding.",swi_man_packages('clib.html'),packages,115875).
+i(/(memory_file_to_codes,2),"Return the content of the memory-file as a list of character-codes in Codes.",swi_man_packages('clib.html'),packages,116429).
+i(/(memory_file_to_codes,3),"Return the content of the memory-file as a list of character-codes in Codes, pretending the data is in the given Encoding.",swi_man_packages('clib.html'),packages,116669).
+i(/(memory_file_to_string,2),"Return the content of the memory-file as a string in -String.",swi_man_packages('clib.html'),packages,116978).
+i(/(memory_file_to_string,3),"Return the content of the memory-file as a string in String, pretending the data is in the given Encoding.",swi_man_packages('clib.html'),packages,117206).
+i(/(memory_file_substring,5),"SubString is a substring of the memory file.",swi_man_packages('clib.html'),packages,117502).
+i(/(memory_file_line_position,4),"True if the character offset Offset corresponds with the LinePos character on line Line.",swi_man_packages('clib.html'),packages,118341).
+i(section(2,'15','sec:time-and-alarm'),"Time and alarm library",swi_man_packages('clib.html'),packages,118812).
+i(/(alarm,4),"Schedule Callable to be called Time seconds from now.",swi_man_packages('clib.html'),packages,119666).
+i(/(alarm,3),"Same as alarm(Time, Callable, Id,[]).",swi_man_packages('clib.html'),packages,121316).
+i(/(alarm_at,4),"as alarm/3, but Time is the specification of an absolute point in time.",swi_man_packages('clib.html'),packages,121495).
+i(/(install_alarm,1),"Activate an alarm allocated using alarm/4 with the option install(false) or stopped using uninstall_alarm/1.",swi_man_packages('clib.html'),packages,121948).
+i(/(install_alarm,2),"As install_alarm/1, but specifies a new (relative) timeout value.",swi_man_packages('clib.html'),packages,122339).
+i(/(uninstall_alarm,1),"Deactivate a running alarm, but do not invalidate the alarm identifier.",swi_man_packages('clib.html'),packages,122616).
+i(/(remove_alarm,1),"Remove an alarm.",swi_man_packages('clib.html'),packages,123388).
+i(/(current_alarm,4),"Enumerate the not-yet-removed alarms.",swi_man_packages('clib.html'),packages,123583).
+i(/(call_with_time_limit,2),"True if Goal completes within Time seconds.",swi_man_packages('clib.html'),packages,123934).
+i(section(2,'16','sec:unix'),"library(unix): Unix specific operations",swi_man_packages('clib.html'),packages,124904).
+i(/(fork,1),"Clone the current process into two branches.",swi_man_packages('clib.html'),packages,125626).
+i(/(fork_exec,1),"Fork (as fork/1) and exec (using exec/1) the child immediately.",swi_man_packages('clib.html'),packages,126813).
+i(/(exec,1),"Replace the running program by starting Command.",swi_man_packages('clib.html'),packages,127354).
+i(/(wait,2),"Wait for a child to change status.",swi_man_packages('clib.html'),packages,128629).
+i(/(kill,2),"Deliver a software interrupt to the process with identifier Pid using software-interrupt number Signal.",swi_man_packages('clib.html'),packages,129572).
+i(/(pipe,2),"Create a communication-pipe.",swi_man_packages('clib.html'),packages,130210).
+i(/(dup,2),"Interface to Unix dup2(), copying the underlying filedescriptor and thus making both streams point to the same underlying object.",swi_man_packages('clib.html'),packages,131109).
+i(/(detach_IO,1),"This predicate is intended to create Unix deamon processes.",swi_man_packages('clib.html'),packages,131861).
+i(/(detach_IO,0),"Detach I/O similar to detach_IO/1.",swi_man_packages('clib.html'),packages,133215).
+i(/(prctl,1),"Access to Linux process control operations.",swi_man_packages('clib.html'),packages,133856).
+i(/(sysconf,1),"Access system configuration.",swi_man_packages('clib.html'),packages,134442).
+i(section(2,'17','sec:limit-process-resources'),"Limiting process resources",swi_man_packages('clib.html'),packages,135201).
+i(/(rlimit,3),"Query and/or set the limit for Resource.",swi_man_packages('clib.html'),packages,135755).
+i(section(2,'18','sec:udpbroadcast'),"library(udp_broadcast): A UDP broadcast proxy",swi_man_packages('clib.html'),packages,137807).
+i(section(3,'18.1','sec:udp-broadcase-caveats'),"Caveats",swi_man_packages('clib.html'),packages,142930).
+i(/(udp_broadcast_close,1),"Close a UDP broadcast scope.",swi_man_packages('clib.html'),packages,147643).
+i(/(udp_broadcast_initialize,2),"Initialized UDP broadcast bridge.",swi_man_packages('clib.html'),packages,147812).
+i(/(udp_peer_add,2),"Manage and query the set of known peers for a unicast network.",swi_man_packages('clib.html'),packages,149478).
+i(/(udp_peer_del,2),"Manage and query the set of known peers for a unicast network.",swi_man_packages('clib.html'),packages,149478).
+i(/(udp_peer,2),"Manage and query the set of known peers for a unicast network.",swi_man_packages('clib.html'),packages,149478).
+i(/(udp_term_string_hook,3),"Hook for serializing the message Term.",swi_man_packages('clib.html'),packages,150270).
+i(/(udp_unicast_join_hook,3),"This multifile hook is called if an UDP package is received on the port of the unicast network identified by Scope.",swi_man_packages('clib.html'),packages,152056).
+i(section(2,'19','sec:prologstream'),"library(prolog_stream): A stream with Prolog callbacks",swi_man_packages('clib.html'),packages,153512).
+i(/(open_prolog_stream,4),"Create a new stream that implements its I/O by calling predicates in Module.",swi_man_packages('clib.html'),packages,153968).
+i(section(0,'0','packages/pl2cpp.html'),"A C++ interface to SWI-Prolog",swi_man_packages('pl2cpp.html'),packages,2781).
+i(section(2,'1','sec:cpp-intro'),"Introduction",swi_man_packages('pl2cpp.html'),packages,8851).
+i(section(2,'2','sec:cpp-overview'),"Overview",swi_man_packages('pl2cpp.html'),packages,10018).
+i(section(2,'3','sec:cpp-examples'),"Examples",swi_man_packages('pl2cpp.html'),packages,14800).
+i(section(3,'3.1','sec:cpp-hello-world'),"Hello(World)",swi_man_packages('pl2cpp.html'),packages,15092).
+i(section(3,'3.2','sec:cpp-ex-adding-numbers'),"Adding numbers",swi_man_packages('pl2cpp.html'),packages,16158).
+i(section(3,'3.3','sec:cpp-ex-average'),"Average of solutions",swi_man_packages('pl2cpp.html'),packages,17295).
+i(section(2,'4','sec:cpp-plterm'),"The class PlTerm",swi_man_packages('pl2cpp.html'),packages,18376).
+i(section(3,'4.1','sec:cpp-plterm-constructurs'),"Constructors",swi_man_packages('pl2cpp.html'),packages,18755).
+i(section(3,'4.2','sec:cpp-plterm-casting'),"Casting PlTerm to native C-types",swi_man_packages('pl2cpp.html'),packages,21007).
+i(section(3,'4.3','sec:cpp-plterm-unification'),"Unification",swi_man_packages('pl2cpp.html'),packages,22963).
+i(section(3,'4.4','sec:cpp-plterm-comparison'),"Comparison",swi_man_packages('pl2cpp.html'),packages,24082).
+i(section(3,'4.5','sec:cpp-plterm-compound'),"Analysing compound terms",swi_man_packages('pl2cpp.html'),packages,27788).
+i(section(3,'4.6','sec:cpp-plterm-misc'),"Miscellaneous",swi_man_packages('pl2cpp.html'),packages,29921).
+i(section(3,'4.7','sec:cpp-plstring'),"The class PlString",swi_man_packages('pl2cpp.html'),packages,30763).
+i(section(3,'4.8','sec:cpp-codelist'),"The class PlCodeList",swi_man_packages('pl2cpp.html'),packages,31913).
+i(section(3,'4.9','sec:cpp-plcharlist'),"The class PlCharList",swi_man_packages('pl2cpp.html'),packages,32366).
+i(section(3,'4.10','sec:cpp-plcompound'),"The class PlCompound",swi_man_packages('pl2cpp.html'),packages,32962).
+i(section(3,'4.11','sec:pltail'),"The class PlTail",swi_man_packages('pl2cpp.html'),packages,34144).
+i(section(2,'5','sec:cpp-pltermv'),"The class PlTermv",swi_man_packages('pl2cpp.html'),packages,37109).
+i(section(2,'6','sec:cpp-prolog-constants'),"Supporting Prolog constants",swi_man_packages('pl2cpp.html'),packages,38650).
+i(section(2,'7','sec:cpp-plregister'),"The class PlRegister",swi_man_packages('pl2cpp.html'),packages,42226).
+i(section(2,'8','sec:cpp-plquery'),"The class PlQuery",swi_man_packages('pl2cpp.html'),packages,44034).
+i(section(3,'8.1','sec:cpp-plframe'),"The class PlFrame",swi_man_packages('pl2cpp.html'),packages,46585).
+i(section(2,'9','sec:cpp-predicate-macro'),"The PREDICATE macro",swi_man_packages('pl2cpp.html'),packages,49008).
+i(section(3,'9.1','sec:cpp-predicate-macro-variations'),"Variations of the PREDICATE macro",swi_man_packages('pl2cpp.html'),packages,50177).
+i(section(3,'9.2','sec:cpp-module'),"Controlling the Prolog destination module",swi_man_packages('pl2cpp.html'),packages,51709).
+i(section(2,'10','sec:cpp-exceptions'),"Exceptions",swi_man_packages('pl2cpp.html'),packages,52734).
+i(section(3,'10.1','sec:cpp-plexception'),"The class PlException",swi_man_packages('pl2cpp.html'),packages,53987).
+i(section(3,'10.2','sec:cpp-pl-type-error'),"The class PlTypeError",swi_man_packages('pl2cpp.html'),packages,56390).
+i(section(3,'10.3','sec:cpp-pl-domain-error'),"The class PlDomainError",swi_man_packages('pl2cpp.html'),packages,56981).
+i(section(2,'11','sec:cpp-embedding'),"Embedded applications",swi_man_packages('pl2cpp.html'),packages,57945).
+i(section(2,'12','sec:cpp-considerations'),"Considerations",swi_man_packages('pl2cpp.html'),packages,59882).
+i(section(3,'12.1','sec:cpp-vs-c'),"The C++ versus the C interface",swi_man_packages('pl2cpp.html'),packages,60056).
+i(section(3,'12.2','sec:cpp-linking'),"Static linking and embedding",swi_man_packages('pl2cpp.html'),packages,60953).
+i(section(3,'12.3','sec:cpp-status'),"Status and compiler versions",swi_man_packages('pl2cpp.html'),packages,61379).
+i(section(2,'13','sec:conclusions'),"Conclusions",swi_man_packages('pl2cpp.html'),packages,62033).
+i(section(0,'0','packages/http.html'),"SWI-Prolog HTTP support",swi_man_packages('http.html'),packages,2775).
+i(section(2,'1','sec:http-intro'),"Introduction",swi_man_packages('http.html'),packages,13858).
+i(section(2,'2','sec:http-clients'),"The HTTP client libraries",swi_man_packages('http.html'),packages,15959).
+i(section(3,'2.1','sec:httpopen'),"library(http/http_open): HTTP client library",swi_man_packages('http.html'),packages,17653).
+i(/(http_open,3),"Open the data at the HTTP server as a Prolog stream.",swi_man_packages('http.html'),packages,22270).
+i(/(map_method,2),"Support additional METHOD keywords.",swi_man_packages('http.html'),packages,32609).
+i(:(http,/(disable_encoding_filter,1)),"Do not use the Content-encoding as Transfer-encoding encoding for specific values of ContentType.",swi_man_packages('http.html'),packages,32907).
+i(/(http_set_authorization,2),"Set user/password to supply with URLs that have URL as prefix.",swi_man_packages('http.html'),packages,33353).
+i(:(iostream,/(open_hook,6)),"Hook implementation that makes open_any/5 support http and https URLs for Mode == read.",swi_man_packages('http.html'),packages,34051).
+i(/(http_close_keep_alive,1),"Close all keep-alive connections matching Address.",swi_man_packages('http.html'),packages,34471).
+i(:(http,/(open_options,2)),"This hook is used by the HTTP client library to define default options based on the the broken-down request-URL.",swi_man_packages('http.html'),packages,34865).
+i(:(http,/(write_cookies,3)),"Emit a Cookie: header for the current connection.",swi_man_packages('http.html'),packages,35669).
+i(:(http,/(update_cookies,3)),"Update the cookie database.",swi_man_packages('http.html'),packages,36516).
+i(section(3,'2.2','sec:httpclient'),"library(http/http_client): HTTP client library",swi_man_packages('http.html'),packages,37236).
+i(/(http_get,3),"Get data from a URL server and convert it to a suitable Prolog representation based on the Content-Type header and plugins.",swi_man_packages('http.html'),packages,39762).
+i(/(http_delete,3),"Execute a DELETE method on the server.",swi_man_packages('http.html'),packages,41075).
+i(/(http_post,4),"Issue an HTTP POST request.",swi_man_packages('http.html'),packages,41790).
+i(/(http_put,4),"Issue an HTTP PUT request.",swi_man_packages('http.html'),packages,42382).
+i(/(http_patch,4),"Issue an HTTP PATCH request.",swi_man_packages('http.html'),packages,42790).
+i(/(http_read_data,3),"Read data from an HTTP connection and convert it according to the supplied to(Format) option or based on the Content-type in the Request.",swi_man_packages('http.html'),packages,43204).
+i(/(http_convert_data,4),"Multi-file hook to convert a HTTP payload according to the Content-Type header.",swi_man_packages('http.html'),packages,45246).
+i(/(http_disconnect,1),"Close down some connections.",swi_man_packages('http.html'),packages,45754).
+i(:(http,/(post_data_hook,3)),"Hook to extend the datatypes supported by the post(Data) option of http_open/3.",swi_man_packages('http.html'),packages,46263).
+i(section(2,'3','sec:httpserver'),"The HTTP server libraries",swi_man_packages('http.html'),packages,46767).
+i(section(3,'3.1','sec:html-body'),"Creating an HTTP reply",swi_man_packages('http.html'),packages,50440).
+i(section(4,'3.1.1','sec:httpspecials'),"Returning special status codes",swi_man_packages('http.html'),packages,54862).
+i(section(3,'3.2','sec:httpdispatch'),"library(http/http_dispatch): Dispatch requests in the HTTP server",swi_man_packages('http.html'),packages,57041).
+i(/(http_handler,3),"Register Closure as a handler for HTTP requests.",swi_man_packages('http.html'),packages,58022).
+i(/(http_delete_handler,1),"Delete handler for Spec.",swi_man_packages('http.html'),packages,63721).
+i(/(http_dispatch,1),"Dispatch a Request using http_handler/3 registrations.",swi_man_packages('http.html'),packages,64341).
+i(/(http_request_expansion,2),"Register Goal for expanding the HTTP request handler.",swi_man_packages('http.html'),packages,65853).
+i(/(http_current_handler,2),"True if Location is handled by Closure.",swi_man_packages('http.html'),packages,66907).
+i(/(http_current_handler,3),"Resolve the current handler and options to execute it.",swi_man_packages('http.html'),packages,67332).
+i(/(http_location_by_id,2),"True when Location represents the HTTP path to which the handler with identifier ID is bound.",swi_man_packages('http.html'),packages,67770).
+i(/(http_link_to_id,3),"HREF is a link on the local server to a handler with given ID, passing the given Parameters.",swi_man_packages('http.html'),packages,69690).
+i(/(http_reload_with_parameters,3),"Create a request on the current handler with replaced search parameters.",swi_man_packages('http.html'),packages,72027).
+i(/(http_reply_file,3),"Options is a list of cache(+Boolean)If true (default), handle If-modified-since and send modification time.",swi_man_packages('http.html'),packages,72314).
+i(/(http_safe_file,2),"True if FileSpec is considered safe.",swi_man_packages('http.html'),packages,74426).
+i(/(http_redirect,3),"Redirect to a new location.",swi_man_packages('http.html'),packages,75002).
+i(/(http_404,2),"Reply using an \"HTTP 404 not found\" page.",swi_man_packages('http.html'),packages,75998).
+i(/(http_switch_protocol,2),"Send an \"HTTP 101 Switching Protocols\" reply.",swi_man_packages('http.html'),packages,76665).
+i(section(3,'3.3','sec:httpdirindex'),"library(http/http_dirindex): HTTP directory listings",swi_man_packages('http.html'),packages,78316).
+i(/(http_reply_dirindex,3),"Provide a directory listing for Request, assuming it is an index for the physical directrory Dir.",swi_man_packages('http.html'),packages,78941).
+i(//(directory_index,2),"Show index for a directory.",swi_man_packages('http.html'),packages,79461).
+i(:(http,/(mime_type_icon,2)),"Multi-file hook predicate that can be used to associate icons to files listed by http_reply_dirindex/3.",swi_man_packages('http.html'),packages,80298).
+i(section(3,'3.4','sec:httpfiles'),"library(http/http_files): Serve plain files from a hierarchy",swi_man_packages('http.html'),packages,80937).
+i(/(http_reply_from_files,3),"HTTP handler that serves files from the directory Dir.",swi_man_packages('http.html'),packages,82273).
+i(section(3,'3.5','sec:httpsession'),"library(http/http_session): HTTP Session management",swi_man_packages('http.html'),packages,84114).
+i(/(http_set_session_options,1),"Set options for the session library.",swi_man_packages('http.html'),packages,86410).
+i(/(http_session_option,1),"True if Option is a current option of the session system.",swi_man_packages('http.html'),packages,89863).
+i(/(session_setting,2),"Find setting for SessionID.",swi_man_packages('http.html'),packages,90111).
+i(/(http_set_session,1),"Overrule a setting for the current or specified session.",swi_man_packages('http.html'),packages,90432).
+i(/(http_set_session,2),"Overrule a setting for the current or specified session.",swi_man_packages('http.html'),packages,90432).
+i(/(http_session_id,1),"True if SessionId is an identifier for the current session.",swi_man_packages('http.html'),packages,91081).
+i(/(http_in_session,1),"True if SessionId is an identifier for the current session.",swi_man_packages('http.html'),packages,91684).
+i(/(http_open_session,2),"Establish a new session.",swi_man_packages('http.html'),packages,92609).
+i(/(http_session_asserta,1),"Versions of assert/1, retract/1 and retractall/1 that associate data with the current HTTP session.",swi_man_packages('http.html'),packages,93728).
+i(/(http_session_assert,1),"Versions of assert/1, retract/1 and retractall/1 that associate data with the current HTTP session.",swi_man_packages('http.html'),packages,93728).
+i(/(http_session_retract,1),"Versions of assert/1, retract/1 and retractall/1 that associate data with the current HTTP session.",swi_man_packages('http.html'),packages,93728).
+i(/(http_session_retractall,1),"Versions of assert/1, retract/1 and retractall/1 that associate data with the current HTTP session.",swi_man_packages('http.html'),packages,93728).
+i(/(http_session_data,1),"True if Data is associated using http_session_assert/1 to the current HTTP session.",swi_man_packages('http.html'),packages,94553).
+i(/(http_session_asserta,2),"Versions of assert/1, retract/1 and retractall/1 that associate data with an explicit HTTP session.",swi_man_packages('http.html'),packages,94983).
+i(/(http_session_assert,2),"Versions of assert/1, retract/1 and retractall/1 that associate data with an explicit HTTP session.",swi_man_packages('http.html'),packages,94983).
+i(/(http_session_retract,2),"Versions of assert/1, retract/1 and retractall/1 that associate data with an explicit HTTP session.",swi_man_packages('http.html'),packages,94983).
+i(/(http_session_retractall,2),"Versions of assert/1, retract/1 and retractall/1 that associate data with an explicit HTTP session.",swi_man_packages('http.html'),packages,94983).
+i(/(http_session_data,2),"Versions of assert/1, retract/1 and retractall/1 that associate data with an explicit HTTP session.",swi_man_packages('http.html'),packages,94983).
+i(/(http_current_session,2),"Enumerate the current sessions and associated data.",swi_man_packages('http.html'),packages,96160).
+i(/(http_close_session,1),"Closes an HTTP session.",swi_man_packages('http.html'),packages,96710).
+i(/(http_session_cookie,1),"Generate a random cookie that can be used by a browser to identify the current session.",swi_man_packages('http.html'),packages,98199).
+i(/(hooked,0),"These multifile predicates may be used to hook the data storage of this library.",swi_man_packages('http.html'),packages,98681).
+i(/(hook,1),"These multifile predicates may be used to hook the data storage of this library.",swi_man_packages('http.html'),packages,98681).
+i(section(3,'3.6','sec:httpcors'),"library(http/http_cors): Enable CORS: Cross-Origin Resource Sharing",swi_man_packages('http.html'),packages,99168).
+i(/(cors_enable,0),"Emit the HTTP header Access-Control-Allow-Origin using domains from the setting http:cors.",swi_man_packages('http.html'),packages,101253).
+i(/(cors_enable,2),"CORS reply to a Preflight OPTIONS request.",swi_man_packages('http.html'),packages,101704).
+i(section(3,'3.7','sec:httpauthenticate'),"library(http/http_authenticate): Authenticate HTTP connections using 401 headers",swi_man_packages('http.html'),packages,102760).
+i(/(http_authenticate,3),"True if Request contains the information to continue according to Type.",swi_man_packages('http.html'),packages,103308).
+i(/(http_authorization_data,2),"Decode the HTTP Authorization header.",swi_man_packages('http.html'),packages,105084).
+i(/(http_current_user,3),"True when User is present in the htpasswd file File and Fields provides the additional fields.",swi_man_packages('http.html'),packages,105596).
+i(/(http_read_passwd_file,2),"Read a password file.",swi_man_packages('http.html'),packages,106265).
+i(/(http_write_passwd_file,2),"Write password data Data to File.",swi_man_packages('http.html'),packages,106842).
+i(:(http,/(authenticate,3)),"Plugin for library(http_dispatch) to perform basic HTTP authentication.",swi_man_packages('http.html'),packages,107413).
+i(section(3,'3.8','sec:httpdigest'),"library(http/http_digest): HTTP Digest authentication",swi_man_packages('http.html'),packages,108264).
+i(//(http_digest_challenge,2),"Generate the content for a 401 WWW-Authenticate: Digest header field.",swi_man_packages('http.html'),packages,111170).
+i(/(http_parse_digest_challenge,2),"Parse the value of an HTTP WWW-Authenticate header into a list of Name(Value) terms.",swi_man_packages('http.html'),packages,111425).
+i(/(http_digest_response,5),"Formulate a reply to a digest authentication request.",swi_man_packages('http.html'),packages,111729).
+i(/(http_digest_password_hash,4),"Compute the password hash for the HTTP password file.",swi_man_packages('http.html'),packages,112984).
+i(:(http,/(authenticate,3)),"Plugin for library(http_dispatch) to perform basic HTTP authentication.",swi_man_packages('http.html'),packages,113769).
+i(:(http,/(authenticate_client,2)),"This hooks is called by http_open/3 with the following Action value: send_auth_header(+AuthData, +Out, +Options)Called when sending the initial request.",swi_man_packages('http.html'),packages,114768).
+i(section(3,'3.9','sec:httpdynworkers'),"library(http/http_dyn_workers): Dynamically schedule HTTP workers.",swi_man_packages('http.html'),packages,115930).
+i(:(http,/(schedule_workers,1)),"Called if there is no immediately free worker to handle the incomming request.",swi_man_packages('http.html'),packages,117663).
+i(section(3,'3.10','sec:http-custom-error-page'),"Custom Error Pages",swi_man_packages('http.html'),packages,118083).
+i(:(http,/(status_page_hook,3)),"TermOrCode is either the first argument of the http_reply exception or the HTTP status code, i.e., the hook is called twice.",swi_man_packages('http.html'),packages,118879).
+i(section(3,'3.11','sec:httpopenid'),"library(http/http_openid): OpenID consumer and server library",swi_man_packages('http.html'),packages,120162).
+i(/(openid_hook,1),"Call hook on the OpenID management library.",swi_man_packages('http.html'),packages,122927).
+i(/(openid_login,1),"Associate the current HTTP session with OpenID.",swi_man_packages('http.html'),packages,124109).
+i(/(openid_logout,1),"Remove the association of the current session with any OpenID",swi_man_packages('http.html'),packages,124418).
+i(/(openid_logged_in,1),"True if session is associated with OpenID.",swi_man_packages('http.html'),packages,124655).
+i(/(openid_user,3),"True if OpenID is a validated OpenID associated with the current session.",swi_man_packages('http.html'),packages,124883).
+i(//(openid_login_form,2),"Create the OpenID form.",swi_man_packages('http.html'),packages,126749).
+i(/(openid_verify,2),"Handle the initial login form presented to the user by the relying party (consumer).",swi_man_packages('http.html'),packages,127985).
+i(/(openid_server,3),"True if OpenIDLogin is the typed id for OpenID verified by Server.",swi_man_packages('http.html'),packages,129602).
+i(/(openid_current_url,2),"Find the public URL for Request that we can make available to our identity provider.",swi_man_packages('http.html'),packages,130164).
+i(/(openid_current_host,3),"Find current location of the server.",swi_man_packages('http.html'),packages,130736).
+i(/(ssl_verify,5),"Accept all certificates.",swi_man_packages('http.html'),packages,131129).
+i(/(openid_authenticate,4),"Succeeds if Request comes from the OpenID server and confirms that User is a verified OpenID user.",swi_man_packages('http.html'),packages,131477).
+i(/(openid_server,2),"Realise the OpenID server.",swi_man_packages('http.html'),packages,132672).
+i(/(openid_grant,1),"Handle the reply from checkid_setup_server/3.",swi_man_packages('http.html'),packages,132882).
+i(/(openid_associate,3),"Calls openid_associate/4 as openid_associate(URL, Handle, Assoc, []).",swi_man_packages('http.html'),packages,133302).
+i(/(openid_associate,4),"Associate with an open-id server.",swi_man_packages('http.html'),packages,133634).
+i(section(3,'3.12','sec:httpparam'),"Get parameters from HTML forms",swi_man_packages('http.html'),packages,134520).
+i(/(http_parameters,2),"The predicate is passes the Request as provided to the handler goal by http_wrapper/5 as well as a partially instantiated lists describing the requested parameters and their types.",swi_man_packages('http.html'),packages,135045).
+i(/(http_parameters,3),"In addition to http_parameters/2, the following options are defined.",swi_man_packages('http.html'),packages,140738).
+i(section(3,'3.13','sec:request'),"Request format",swi_man_packages('http.html'),packages,142144).
+i(/(http_read_request,2),"Reads an HTTP request from Stream and unify Request with the parsed request.",swi_man_packages('http.html'),packages,142611).
+i(section(4,'3.13.1','sec:http-read-post'),"Handling POST requests",swi_man_packages('http.html'),packages,147758).
+i(section(3,'3.14','sec:http-running-server'),"Running the server",swi_man_packages('http.html'),packages,149139).
+i(section(4,'3.14.1','sec:http-server-options'),"Common server interface options",swi_man_packages('http.html'),packages,151403).
+i(section(4,'3.14.2','sec:mthttpd'),"Multi-threaded Prolog",swi_man_packages('http.html'),packages,152036).
+i(/(http_server,2),"Create the server.",swi_man_packages('http.html'),packages,152874).
+i(/(http_server_property,2),"True if Property is a property of the HTTP server running at Port.",swi_man_packages('http.html'),packages,156721).
+i(/(http_workers,2),"Query or manipulate the number of workers of the server identified by Port.",swi_man_packages('http.html'),packages,157616).
+i(/(http_add_worker,2),"Add a new worker to the HTTP server for port Port.",swi_man_packages('http.html'),packages,158484).
+i(/(http_stop_server,2),"Stop the HTTP server at Port.",swi_man_packages('http.html'),packages,158998).
+i(/(http_current_worker,2),"True if ThreadID is the identifier of a Prolog thread serving Port.",swi_man_packages('http.html'),packages,159426).
+i(/(http_spawn,2),"Continue handling this request in a new thread running Goal.",swi_man_packages('http.html'),packages,159798).
+i(section(4,'3.14.3','sec:httpunixdaemon'),"library(http/http_unix_daemon): Run SWI-Prolog HTTP server as a Unix system daemon",swi_man_packages('http.html'),packages,161923).
+i(/(http_daemon,0),"Start the HTTP server as a daemon process.",swi_man_packages('http.html'),packages,165642).
+i(/(http_daemon,1),"Start the HTTP server as a daemon process.",swi_man_packages('http.html'),packages,171251).
+i(/(http_certificate_hook,3),"Hook called before starting the server if the --https option is used.",swi_man_packages('http.html'),packages,171833).
+i(/(http_server_hook,1),"Hook that is called to start the HTTP server.",swi_man_packages('http.html'),packages,172356).
+i(:(http,/(sni_options,2)),"Hook to provide Server Name Indication (SNI) for TLS servers.",swi_man_packages('http.html'),packages,172740).
+i(section(4,'3.14.4','sec:http-inetd'),"From (Unix) inetd",swi_man_packages('http.html'),packages,173373).
+i(/(http_server,1),"Initialises and runs http_wrapper/5 in a loop until failure or end-of-file.",swi_man_packages('http.html'),packages,174747).
+i(section(4,'3.14.5','sec:http-inetd-mswin'),"MS-Windows",swi_man_packages('http.html'),packages,175864).
+i(section(4,'3.14.6','sec:http-server-as-cgi'),"As CGI script",swi_man_packages('http.html'),packages,176108).
+i(section(4,'3.14.7','sec:proxy'),"Using a reverse proxy",swi_man_packages('http.html'),packages,176306).
+i(section(3,'3.15','sec:http-wrapper'),"The wrapper library",swi_man_packages('http.html'),packages,179968).
+i(/(http_wrapper,5),"Handle an HTTP request where In is an input stream from the client, Out is an output stream to the client and Goal defines the goal realising the body.",swi_man_packages('http.html'),packages,180497).
+i(:(http,/(request_expansion,2)),"This multifile hook predicate is called just before the goal that produces the body, while the output is already redirected to collect the reply.",swi_man_packages('http.html'),packages,182011).
+i(/(http_current_request,1),"Get access to the currently executing request.",swi_man_packages('http.html'),packages,182974).
+i(/(http_relative_path,2),"Convert an absolute path (without host, fragment or search) into a path relative to the current page, defined as the path component from the current request (see http_current_request/1).",swi_man_packages('http.html'),packages,183555).
+i(section(3,'3.16','sec:httphost'),"library(http/http_host): Obtain public server location",swi_man_packages('http.html'),packages,184239).
+i(/(http_public_url,2),"True when URL is an absolute URL for the current request.",swi_man_packages('http.html'),packages,184952).
+i(/(http_public_host_url,2),"True when URL is the public URL at which this server can be contacted.",swi_man_packages('http.html'),packages,185304).
+i(/(http_public_host,4),"Current global host and port of the HTTP server.",swi_man_packages('http.html'),packages,185735).
+i(/(http_current_host,4),"deprecatedUse http_public_host/4 (same semantics)",swi_man_packages('http.html'),packages,187130).
+i(section(3,'3.17','sec:httplog'),"library(http/http_log): HTTP Logging module",swi_man_packages('http.html'),packages,187500).
+i(/(http_log_stream,1),"True when Stream is a stream to the opened HTTP log file.",swi_man_packages('http.html'),packages,188297).
+i(/(http_log_close,1),"If there is a currently open HTTP logfile, close it after adding a term server(Reason, Time).",swi_man_packages('http.html'),packages,189167).
+i(/(http_log,2),"Write message from Format and Args to log-stream.",swi_man_packages('http.html'),packages,189904).
+i(/(password_field,1),"Multifile predicate that can be defined to hide passwords from the logfile.",swi_man_packages('http.html'),packages,190252).
+i(/(nolog,1),"Multifile predicate that can be defined to hide request parameters from the request logfile.",swi_man_packages('http.html'),packages,190510).
+i(/(nolog_post_content_type,1),"Multifile hook called with the Content-type header.",swi_man_packages('http.html'),packages,190763).
+i(/(post_data_encoded,2),"Encode the POST body for inclusion into the HTTP log file.",swi_man_packages('http.html'),packages,191404).
+i(/(http_logrotate,1),"Rotate the available log files.",swi_man_packages('http.html'),packages,191904).
+i(/(http_schedule_logrotate,2),"Schedule log rotation based on maintenance broadcasts.",swi_man_packages('http.html'),packages,193491).
+i(section(3,'3.18','sec:http-debug'),"Debugging HTTP servers",swi_man_packages('http.html'),packages,194559).
+i(section(3,'3.19','sec:httpheader'),"library(http/http_header): Handling HTTP headers",swi_man_packages('http.html'),packages,195327).
+i(/(http_read_request,2),"Read an HTTP request-header from FdIn and return the broken-down request fields as +Name(+Value) pairs in a list.",swi_man_packages('http.html'),packages,195758).
+i(/(http_read_reply_header,2),"Read the HTTP reply header.",swi_man_packages('http.html'),packages,196175).
+i(/(http_reply,2),"Compose a complete HTTP reply from the term Data using additional headers from HdrExtra to the output stream Out.",swi_man_packages('http.html'),packages,196438).
+i(/(http_reply,3),"Compose a complete HTTP reply from the term Data using additional headers from HdrExtra to the output stream Out.",swi_man_packages('http.html'),packages,196438).
+i(/(http_reply,4),"Compose a complete HTTP reply from the term Data using additional headers from HdrExtra to the output stream Out.",swi_man_packages('http.html'),packages,196438).
+i(/(http_reply,5),"Compose a complete HTTP reply from the term Data using additional headers from HdrExtra to the output stream Out.",swi_man_packages('http.html'),packages,196438).
+i(/(http_reply,6),"Compose a complete HTTP reply from the term Data using additional headers from HdrExtra to the output stream Out.",swi_man_packages('http.html'),packages,196438).
+i(/(http_status_reply,4),"Emit HTML non-200 status reports.",swi_man_packages('http.html'),packages,199506).
+i(/(http_status_reply,5),"Emit HTML non-200 status reports.",swi_man_packages('http.html'),packages,199506).
+i(/(http_status_reply,6),"Emit HTML non-200 status reports.",swi_man_packages('http.html'),packages,199506).
+i(:(http,/(serialize_reply,2)),"Multifile hook to serialize the result of http:status_reply/3 into a term body(Type, Encoding, Content)In this term, Type is the media type, Encoding is the required wire encoding and Content a string representing the content.",swi_man_packages('http.html'),packages,201508).
+i(/(http_join_headers,3),"Append headers from Default to Header if they are not already part of it.",swi_man_packages('http.html'),packages,202123).
+i(/(http_update_encoding,3),"Allow for rewrite of the header, adjusting the encoding.",swi_man_packages('http.html'),packages,202374).
+i(:(http,/(mime_type_encoding,2)),"Encoding is the (default) character encoding for MimeType.",swi_man_packages('http.html'),packages,202866).
+i(/(http_update_connection,4),"Merge keep-alive information from Request and CGIHeader into Header.",swi_man_packages('http.html'),packages,203511).
+i(/(http_update_transfer,4),"Decide on the transfer encoding from the Request and the CGI header.",swi_man_packages('http.html'),packages,203797).
+i(/(http_post_data,3),"Send data on behalf on an HTTP POST request.",swi_man_packages('http.html'),packages,204654).
+i(/(http_reply_header,3),"Create a reply header using reply_header//3 and send it to Stream.",swi_man_packages('http.html'),packages,208292).
+i(/(http_parse_header_value,3),"Translate Value in a meaningful Prolog term.",swi_man_packages('http.html'),packages,208585).
+i(/(http_timestamp,2),"Generate a description of a Time in HTTP format (RFC1123)",swi_man_packages('http.html'),packages,210724).
+i(/(http_read_header,2),"Read Name: Value lines from FD until an empty line is encountered.",swi_man_packages('http.html'),packages,210980).
+i(/(http_parse_header,2),"Header is a list of Name(Value)-terms representing the structure of the HTTP header in Text.",swi_man_packages('http.html'),packages,211382).
+i(:(http,//(/,1)),"HTML-rule that emits the location of the HTTP server.",swi_man_packages('http.html'),packages,211806).
+i(:(http,/(status_page,3)),"Hook called by http_status_reply/4 and http_status_reply/5 that allows for emitting custom error pages for the following HTTP page types: 201 - created(Location)301 - moved(To)302 - moved_temporary(To)303 - see_other(To)400 - bad_request(ErrorTerm)401 - authorise(AuthMethod)403 - forbidden(URL)404 - not_found(URL)405 - method_not_allowed(Method,URL)406 - not_acceptable(Why)500 - server_error(ErrorTerm)503 - unavailable(Why) The hook is tried twice, first using the status term, e.g., not_found(URL) and than with the code, e.g.",swi_man_packages('http.html'),packages,212211).
+i(section(3,'3.20','sec:htmlwrite'),"The library(http/html_write) library",swi_man_packages('http.html'),packages,213985).
+i(//(html,1),"The DCG non-terminal html//1 is the main predicate of this library.",swi_man_packages('http.html'),packages,215173).
+i(//(page,2),"The DCG non-terminal page//2 generated a complete page, including the SGML DOCTYPE declaration.",swi_man_packages('http.html'),packages,221017).
+i(//(page,1),"This version of the page/[1,2] only gives you the SGML DOCTYPE and the HTML element.",swi_man_packages('http.html'),packages,222368).
+i(//(html_begin,1),"Just open the given element.",swi_man_packages('http.html'),packages,222743).
+i(//(html_end,1),"End an element.",swi_man_packages('http.html'),packages,223830).
+i(section(4,'3.20.1','sec:html-write'),"Emitting HTML documents",swi_man_packages('http.html'),packages,224080).
+i(/(reply_html_page,2),"Same as reply_html_page(default, Head, Body).",swi_man_packages('http.html'),packages,224771).
+i(/(reply_html_page,3),"Writes an HTML page preceded by an HTTP header as required by library(http_wrapper) (CGI-style).",swi_man_packages('http.html'),packages,224969).
+i(/(print_html,1),"Print the token list to the Prolog current output stream.",swi_man_packages('http.html'),packages,226536).
+i(/(print_html,2),"Print the token list to the specified output stream",swi_man_packages('http.html'),packages,226715).
+i(/(html_print_length,2),"When calling html_print/[1,2] on List, Length characters will be produced.",swi_man_packages('http.html'),packages,226898).
+i(section(4,'3.20.2','sec:html-post'),"Repositioning HTML for CSS and javascript links",swi_man_packages('http.html'),packages,227318).
+i(//(html_post,2),"Reposition HTML to the receiving Id.",swi_man_packages('http.html'),packages,228234).
+i(//(html_receive,1),"Receive posted HTML tokens.",swi_man_packages('http.html'),packages,229654).
+i(//(html_receive,2),"This extended version of html_receive//1 causes Handler to be called to process all messages posted to the channal at the time output is generated.",swi_man_packages('http.html'),packages,230390).
+i(//(xhtml_ns,2),"Demand an xmlns:id=Value in the outer html tag.",swi_man_packages('http.html'),packages,232082).
+i(section(4,'3.20.3','sec:html-write-rules'),"Adding rules for html//1",swi_man_packages('http.html'),packages,233369).
+i(//('html_write:expand',1),"Hook to add additional translation rules for html//1.",swi_man_packages('http.html'),packages,233863).
+i(//(html_quoted,1),"Emit the text in Atom, inserting entity-references for the SGML special characters <&>.",swi_man_packages('http.html'),packages,234068).
+i(//(html_quoted_attribute,1),"Emit the text in Atom suitable for use as an SGML attribute, inserting entity-references for the SGML special characters <&>\".",swi_man_packages('http.html'),packages,234330).
+i(section(4,'3.20.4','sec:htmllayout'),"Generating layout",swi_man_packages('http.html'),packages,234662).
+i(/('html_write:layout',3),"Specify the layout conventions for the element Tag, which is a lowercase atom.",swi_man_packages('http.html'),packages,235173).
+i(section(4,'3.20.5','sec:html-write-examples'),"Examples for using the HTML write library",swi_man_packages('http.html'),packages,236287).
+i(section(4,'3.20.6','sec:html-write-remarks'),"Remarks on the library(http/html_write) library",swi_man_packages('http.html'),packages,238712).
+i(section(3,'3.21','sec:jswrite'),"library(http/js_write): Utilities for including JavaScript",swi_man_packages('http.html'),packages,240162).
+i(//(js_script,1),"Generate a JavaScript script element with the given content.",swi_man_packages('http.html'),packages,241120).
+i(/(javascript,4),"Quasi quotation parser for JavaScript that allows for embedding Prolog variables to substitude identifiers in the JavaScript snippet.",swi_man_packages('http.html'),packages,241368).
+i(//(js_call,1),"Emit a call to a Javascript function.",swi_man_packages('http.html'),packages,242866).
+i(//(js_new,2),"Emit a call to a Javascript object declaration.",swi_man_packages('http.html'),packages,243456).
+i(//(js_arg_list,1),"Write javascript (function) arguments.",swi_man_packages('http.html'),packages,243764).
+i(//(js_expression,1),"Emit a single JSON argument.",swi_man_packages('http.html'),packages,244116).
+i(//(js_arg,1),"Same as js_expression//1, but fails if Expression is invalid, where js_expression//1 raises an error.",swi_man_packages('http.html'),packages,245775).
+i(section(3,'3.22','sec:httppath'),"library(http/http_path): Abstract specification of HTTP server locations",swi_man_packages('http.html'),packages,246317).
+i(:(http,/(location,3)),"Multifile hook used to specify new HTTP locations.",swi_man_packages('http.html'),packages,248346).
+i(/(http_absolute_uri,2),"URI is the absolute (i.e., starting with http://) URI for the abstract specification Spec.",swi_man_packages('http.html'),packages,249602).
+i(/(http_absolute_location,3),"Path is the HTTP location for the abstract specification Spec.",swi_man_packages('http.html'),packages,250178).
+i(/(http_clean_location_cache,0),"HTTP locations resolved through http_absolute_location/3 are cached.",swi_man_packages('http.html'),packages,250876).
+i(section(3,'3.23','sec:htmlhead'),"library(http/html_head): Automatic inclusion of CSS and scripts links",swi_man_packages('http.html'),packages,251293).
+i(section(4,'3.23.1','sec:html-resource-ordering'),"About resource ordering",swi_man_packages('http.html'),packages,252945).
+i(section(4,'3.23.2','sec:html-resource-debugging'),"Debugging dependencies",swi_man_packages('http.html'),packages,253803).
+i(section(4,'3.23.3','sec:html-resource-predicates'),"Predicates",swi_man_packages('http.html'),packages,254283).
+i(/(html_resource,2),"Register an HTML head resource.",swi_man_packages('http.html'),packages,254492).
+i(/(html_current_resource,1),"True when About is a currently known resource.",swi_man_packages('http.html'),packages,256795).
+i(//(html_requires,1),"Include ResourceOrList and all dependencies derived from it and add them to the HTML head using html_post/2.",swi_man_packages('http.html'),packages,257035).
+i(//(html_insert_resource,1),"Actually include HTML head resources.",swi_man_packages('http.html'),packages,257534).
+i(//(mime_include,2),"Hook called to include a link to an HTML resource of type Mime into the HTML head.",swi_man_packages('http.html'),packages,258281).
+i(section(3,'3.24','sec:httppwp'),"library(http/http_pwp): Serve PWP pages through the HTTP server",swi_man_packages('http.html'),packages,259098).
+i(/(pwp_handler,2),"Handle PWP files.",swi_man_packages('http.html'),packages,260495).
+i(/(reply_pwp_page,3),"Reply a PWP file.",swi_man_packages('http.html'),packages,262875).
+i(section(2,'4','sec:transfer'),"Transfer encodings",swi_man_packages('http.html'),packages,265610).
+i(section(3,'4.1','sec:http-chunked'),"The library(http/http_chunked) library",swi_man_packages('http.html'),packages,267076).
+i(/(http_chunked_open,3),"Create a stream to realise HTTP chunked encoding or decoding.",swi_man_packages('http.html'),packages,267294).
+i(section(2,'5','sec:websocket'),"library(http/websocket): WebSocket support",swi_man_packages('http.html'),packages,267751).
+i(/(http_open_websocket,3),"Establish a client websocket connection.",swi_man_packages('http.html'),packages,269473).
+i(/(http_upgrade_to_websocket,3),"Create a websocket connection running call(Goal, WebSocket), where WebSocket is a socket-pair.",swi_man_packages('http.html'),packages,271281).
+i(/(ws_send,2),"Send a message over a websocket.",swi_man_packages('http.html'),packages,273317).
+i(/(ws_receive,2),"Receive the next message from WebSocket.",swi_man_packages('http.html'),packages,276018).
+i(/(ws_receive,3),"Receive the next message from WebSocket.",swi_man_packages('http.html'),packages,276018).
+i(/(ws_close,3),"Close a WebSocket connection by sending a close message if this was not already sent and wait for the close reply.",swi_man_packages('http.html'),packages,278431).
+i(/(ws_open,3),"Turn a raw TCP/IP (or any other binary stream) into a websocket stream.",swi_man_packages('http.html'),packages,279290).
+i(/(ws_property,2),"True if Property is a property WebSocket.",swi_man_packages('http.html'),packages,281017).
+i(/(ws_mask,1),"Produce a good random number of the mask of a client message.",swi_man_packages('http.html'),packages,281555).
+i(section(2,'6','sec:hub'),"library(http/hub): Manage a hub for websockets",swi_man_packages('http.html'),packages,281743).
+i(/(hub_create,3),"Create a new hub.",swi_man_packages('http.html'),packages,283958).
+i(/(current_hub,2),"True when there exists a hub Hub with Name.",swi_man_packages('http.html'),packages,285068).
+i(/(hub_add,3),"Add a WebSocket to the hub.",swi_man_packages('http.html'),packages,285302).
+i(/(hub_member,2),"True when Id is a member of the hub HubName.",swi_man_packages('http.html'),packages,285620).
+i(/(hub_send,2),"Send message to the indicated ClientId.",swi_man_packages('http.html'),packages,285855).
+i(/(hub_broadcast,2),"Send Message to all websockets associated with Hub for which call(Condition, Id) succeeds.",swi_man_packages('http.html'),packages,286335).
+i(/(hub_broadcast,3),"Send Message to all websockets associated with Hub for which call(Condition, Id) succeeds.",swi_man_packages('http.html'),packages,286335).
+i(section(2,'7','sec:jsonsupport'),"Supporting JSON",swi_man_packages('http.html'),packages,287063).
+i(section(3,'7.1','sec:json'),"library(http/json): Reading and writing JSON serialization",swi_man_packages('http.html'),packages,289598).
+i(/(atom_json_term,3),"Convert between textual representation and a JSON term.",swi_man_packages('http.html'),packages,291066).
+i(/(json_read,2),"Read next JSON value from Stream into a Prolog term.",swi_man_packages('http.html'),packages,291616).
+i(/(json_read,3),"Read next JSON value from Stream into a Prolog term.",swi_man_packages('http.html'),packages,291616).
+i(/(json_write,2),"Write a JSON term to Stream.",swi_man_packages('http.html'),packages,294738).
+i(/(json_write,3),"Write a JSON term to Stream.",swi_man_packages('http.html'),packages,294738).
+i(/(json_write_hook,4),"Hook that can be used to emit a JSON representation for Term to Stream.",swi_man_packages('http.html'),packages,297663).
+i(/(json_dict_pairs,2),"This hook may be used to order the keys of an object.",swi_man_packages('http.html'),packages,298702).
+i(/(is_json_term,1),"True if Term is a json term.",swi_man_packages('http.html'),packages,299052).
+i(/(is_json_term,2),"True if Term is a json term.",swi_man_packages('http.html'),packages,299052).
+i(/(json_read_dict,2),"Read a JSON object, returning objects as a dicts.",swi_man_packages('http.html'),packages,299618).
+i(/(json_read_dict,3),"Read a JSON object, returning objects as a dicts.",swi_man_packages('http.html'),packages,299618).
+i(/(json_write_dict,2),"Write a JSON term, represented using dicts.",swi_man_packages('http.html'),packages,302064).
+i(/(json_write_dict,3),"Write a JSON term, represented using dicts.",swi_man_packages('http.html'),packages,302064).
+i(/(atom_json_dict,3),"Convert between textual representation and a JSON term represented as a dict.",swi_man_packages('http.html'),packages,302586).
+i(section(3,'7.2','sec:jsonconvert'),"library(http/json_convert): Convert between JSON terms and Prolog application terms",swi_man_packages('http.html'),packages,303352).
+i(/(current_json_object,3),"Multifile predicate computed from the json_object/1 declarations.",swi_man_packages('http.html'),packages,306820).
+i(/(json_object,1),"Declare a JSON object.",swi_man_packages('http.html'),packages,307414).
+i(/(prolog_bool_to_json,2),"JSON is the JSON boolean for Prolog.",swi_man_packages('http.html'),packages,308628).
+i(/(prolog_to_json,2),"Translate a Prolog application Term into a JSON object term.",swi_man_packages('http.html'),packages,309252).
+i(/(json_to_prolog,2),"Translate a JSON term into an application term.",swi_man_packages('http.html'),packages,310126).
+i(section(3,'7.3','sec:httpjson'),"library(http/http_json): HTTP JSON Plugin module",swi_man_packages('http.html'),packages,310982).
+i(/('http_client:http_convert_data',4),"Hook implementation that supports reading JSON documents.",swi_man_packages('http.html'),packages,314339).
+i(/(is_json_content_type,1),"True if ContentType is a header value (either parsed or as atom/string) that denotes a JSON value.",swi_man_packages('http.html'),packages,314974).
+i(/(json_type,1),"True if MediaType is a JSON media type.",swi_man_packages('http.html'),packages,315272).
+i(:(http,/(post_data_hook,3)),"Hook implementation that allows http_post_data/3 posting JSON objects using one of the forms below.",swi_man_packages('http.html'),packages,315826).
+i(/(http_read_json,2),"Extract JSON data posted to this HTTP request.",swi_man_packages('http.html'),packages,316901).
+i(/(http_read_json,3),"Extract JSON data posted to this HTTP request.",swi_man_packages('http.html'),packages,316901).
+i(/(http_read_json_dict,2),"Similar to http_read_json/2,3, but by default uses the version 7 extended datatypes.",swi_man_packages('http.html'),packages,318087).
+i(/(http_read_json_dict,3),"Similar to http_read_json/2,3, but by default uses the version 7 extended datatypes.",swi_man_packages('http.html'),packages,318087).
+i(/(reply_json,1),"Formulate a JSON HTTP reply.",swi_man_packages('http.html'),packages,318572).
+i(/(reply_json,2),"Formulate a JSON HTTP reply.",swi_man_packages('http.html'),packages,318572).
+i(/(reply_json_dict,1),"As reply_json/1 and reply_json/2, but assumes the new dict based data representation.",swi_man_packages('http.html'),packages,319903).
+i(/(reply_json_dict,2),"As reply_json/1 and reply_json/2, but assumes the new dict based data representation.",swi_man_packages('http.html'),packages,319903).
+i(section(2,'8','sec:http-mime'),"MIME support",swi_man_packages('http.html'),packages,320660).
+i(section(3,'8.1','sec:mimepack'),"library(http/mimepack): Create a MIME message",swi_man_packages('http.html'),packages,320813).
+i(/(mime_pack,3),"Pack a number of inputs into a MIME package using a specified or generated boundary.",swi_man_packages('http.html'),packages,321544).
+i(section(2,'9','sec:http-security'),"Security",swi_man_packages('http.html'),packages,325114).
+i(section(2,'10','sec:http-tips-and-tricks'),"Tips and tricks",swi_man_packages('http.html'),packages,328132).
+i(section(2,'11','sec:http-status'),"Status",swi_man_packages('http.html'),packages,329418).
+i(section(0,'0','packages/mqi.html'),"mqi -- Python and Other Programming Languge Integration for SWI Prolog",swi_man_packages('mqi.html'),packages,2823).
+i(section(2,'1','sec:mqi-overview'),"Machine Query Interface Overview",swi_man_packages('mqi.html'),packages,5416).
+i(section(3,'1.1','sec:mqi-python-installation'),"Installation Steps for Python",swi_man_packages('mqi.html'),packages,8749).
+i(section(3,'1.2','sec:mqi-language-installation'),"Installation Steps for Other Languages",swi_man_packages('mqi.html'),packages,9407).
+i(section(3,'1.3','sec:mqi-toplevel-differences'),"Prolog Language Differences from the Top Level",swi_man_packages('mqi.html'),packages,11207).
+i(section(3,'1.4','sec:mqi-embedded-mode'),"Embedded Mode: Integrating the Machine Query Interface Into a New Programming Language",swi_man_packages('mqi.html'),packages,13951).
+i(section(3,'1.5','sec:mqi-standalone-mode'),"Standalone Mode: Debugging Prolog Code Used in an Application",swi_man_packages('mqi.html'),packages,21573).
+i(section(3,'1.6','sec:mqi-messages'),"Machine Query Interface Messages",swi_man_packages('mqi.html'),packages,24388).
+i(section(4,'1.6.1','sec:mqi-message-format'),"Machine Query Interface Message Format",swi_man_packages('mqi.html'),packages,25596).
+i(section(4,'1.6.2','sec:mqi-messages'),"Machine Query Interface Messages Reference",swi_man_packages('mqi.html'),packages,27654).
+i(section(2,'2','sec:mqi'),"library(mqi)",swi_man_packages('mqi.html'),packages,40637).
+i(/(mqi_start,1),"Starts a Prolog Machine Query Interface ('MQI') using Options.",swi_man_packages('mqi.html'),packages,40796).
+i(/(mqi_start,0),"Main entry point for running the Machine Query Interface in \"Embedded Mode\" (section 1.4) and designed to be called from the command line.",swi_man_packages('mqi.html'),packages,48855).
+i(/(mqi_stop,1),"If Server_Thread_ID is a variable, stops all Machine Query Interfaces and associated threads.",swi_man_packages('mqi.html'),packages,50594).
+i(section(0,'0','packages/nlp.html'),"SWI-Prolog Natural Language Processing Primitives",swi_man_packages('nlp.html'),packages,2801).
+i(section(2,'1','sec:double-metaphone'),"Double Metaphone -- Phonetic string matching",swi_man_packages('nlp.html'),packages,4455).
+i(/(double_metaphone,2),"Same as double_metaphone/3, but only returning the primary metaphone.",swi_man_packages('nlp.html'),packages,5163).
+i(/(double_metaphone,3),"Create metaphone and alternative metaphone from In.",swi_man_packages('nlp.html'),packages,5461).
+i(section(3,'1.1','sec:double-metaphone-copyright'),"Origin and Copyright",swi_man_packages('nlp.html'),packages,5945).
+i(section(2,'2','sec:porter-stem'),"Porter Stem -- Determine stem and related routines",swi_man_packages('nlp.html'),packages,6827).
+i(/(porter_stem,2),"Determine the stem of In.",swi_man_packages('nlp.html'),packages,7345).
+i(/(unaccent_atom,2),"If In is general ISO Latin-1 text with accents, ASCII is unified with a plain ASCII version of the string.",swi_man_packages('nlp.html'),packages,7872).
+i(/(tokenize_atom,2),"Break the text In into words, numbers and punctuation characters.",swi_man_packages('nlp.html'),packages,8202).
+i(/(atom_to_stem_list,2),"Combines the three above routines, returning a list holding an atom with the stem of each word encountered and numbers for encountered numbers.",swi_man_packages('nlp.html'),packages,9226).
+i(section(3,'2.1','sec:porter-stem-copyright'),"Origin and Copyright",swi_man_packages('nlp.html'),packages,9530).
+i(section(2,'3','sec:snowball'),"library(snowball): The Snowball multi-lingual stemmer library",swi_man_packages('nlp.html'),packages,10126).
+i(/(snowball,3),"Apply the Snowball Algorithm on Input and unify the result (an atom) with Stem.",swi_man_packages('nlp.html'),packages,11044).
+i(/(snowball_current_algorithm,1),"True if Algorithm is the official name of an algorithm suported by snowball/3.",swi_man_packages('nlp.html'),packages,12177).
+i(section(2,'4','sec:isub'),"library(isub): isub: a string similarity measure",swi_man_packages('nlp.html'),packages,12587).
+i(/(isub,4),"Similarity is a measure of the similarity/dissimilarity between Text1 and Text2.",swi_man_packages('nlp.html'),packages,13299).
+i(section(0,'0','packages/paxos.html'),"Paxos -- a SWI-Prolog replicating key-value store",swi_man_packages('paxos.html'),packages,2801).
+i(section(2,'1','sec:paxos'),"library(paxos): A Replicated Data Store",swi_man_packages('paxos.html'),packages,3670).
+i(/(paxos_initialize,1),"Initialize this Prolog process as a paxos node.",swi_man_packages('paxos.html'),packages,7682).
+i(/(paxos_property,1),"True if Property is a current property for the paxos network.",swi_man_packages('paxos.html'),packages,8752).
+i(/(paxos_set,1),"Equivalent to paxos_key(Term,Key), pasox_set(Key,Term).",swi_man_packages('paxos.html'),packages,9082).
+i(/(paxos_set,2),"negotiates to have Key-Value recorded in the ledger for each of the quorum's members.",swi_man_packages('paxos.html'),packages,9482).
+i(/(paxos_set,3),"negotiates to have Key-Value recorded in the ledger for each of the quorum's members.",swi_man_packages('paxos.html'),packages,9482).
+i(/(paxos_quorum_ask,4),"Ask the paxos forum for their opinion.",swi_man_packages('paxos.html'),packages,11483).
+i(/(paxos_get,1),"Equivalent to paxos_key(Term,Key), pasox_get(Key,Term).",swi_man_packages('paxos.html'),packages,12472).
+i(/(paxos_get,2),"unifies Term with the entry retrieved from the Paxon's ledger.",swi_man_packages('paxos.html'),packages,12865).
+i(/(paxos_get,3),"unifies Term with the entry retrieved from the Paxon's ledger.",swi_man_packages('paxos.html'),packages,12865).
+i(/(paxos_replicate_key,3),"Replicate a Key to Nodes.",swi_man_packages('paxos.html'),packages,14246).
+i(/(paxos_on_change,2),"Executes the specified Goal when Key changes.",swi_man_packages('paxos.html'),packages,14777).
+i(/(paxos_on_change,3),"Executes the specified Goal when Key changes.",swi_man_packages('paxos.html'),packages,14777).
+i(/(paxos_ledger_hook,5),"Hook called for all operations on the ledger.",swi_man_packages('paxos.html'),packages,15941).
+i(section(0,'0','packages/redis.html'),"Redis -- a SWI-Prolog client for redis",swi_man_packages('redis.html'),packages,2790).
+i(section(2,'1','sec:redis-overview'),"About the SWI-Prolog Redis client",swi_man_packages('redis.html'),packages,4484).
+i(section(3,'1.1','sec:redis-threads'),"Redis and threads",swi_man_packages('redis.html'),packages,5362).
+i(section(3,'1.2','sec:redis-versions'),"About versions",swi_man_packages('redis.html'),packages,6340).
+i(section(3,'1.3','sec:redis-brokering'),"Redis as a message brokering system",swi_man_packages('redis.html'),packages,7537).
+i(section(3,'1.4','sec:redis-history'),"History",swi_man_packages('redis.html'),packages,9650).
+i(section(2,'2','sec:redis'),"library(redis): Redis client",swi_man_packages('redis.html'),packages,10783).
+i(/(redis_server,3),"Register a redis server without connecting to it.",swi_man_packages('redis.html'),packages,11571).
+i(/(redis_connect,1),"Connect to a redis server.",swi_man_packages('redis.html'),packages,12449).
+i(/(redis_connect,3),"Connect to a redis server.",swi_man_packages('redis.html'),packages,12449).
+i(/(redis_disconnect,1),"Disconnect from a redis server.",swi_man_packages('redis.html'),packages,15271).
+i(/(redis_disconnect,2),"Disconnect from a redis server.",swi_man_packages('redis.html'),packages,15271).
+i(/(redis,2),"This predicate is overloaded to handle two types of requests.",swi_man_packages('redis.html'),packages,16137).
+i(/(redis,3),"Execute a redis Command on Connnection.",swi_man_packages('redis.html'),packages,18054).
+i(/(redis,1),"Connect to the default redis server, call redist/3 using Request, disconnect and print the result.",swi_man_packages('redis.html'),packages,24118).
+i(/(redis_write,2),"Write command and read replies from a Redis server.",swi_man_packages('redis.html'),packages,24424).
+i(/(redis_read,2),"Write command and read replies from a Redis server.",swi_man_packages('redis.html'),packages,24424).
+i(/(redis_get_list,3),"Get the content of a Redis list in List.",swi_man_packages('redis.html'),packages,24858).
+i(/(redis_get_list,4),"Get the content of a Redis list in List.",swi_man_packages('redis.html'),packages,24858).
+i(/(redis_set_list,3),"Associate a Redis key with a list.",swi_man_packages('redis.html'),packages,25907).
+i(/(redis_get_hash,3),"Put/get a Redis hash as a Prolog dict.",swi_man_packages('redis.html'),packages,26408).
+i(/(redis_set_hash,3),"Put/get a Redis hash as a Prolog dict.",swi_man_packages('redis.html'),packages,26408).
+i(/(redis_array_dict,3),"Translate a Redis reply representing hash data into a SWI-Prolog dict.",swi_man_packages('redis.html'),packages,27261).
+i(/(redis_scan,3),"Map the Redis SCAN, SSCAN, HSCAN and ZSCAN‘commands into a lazy list.",swi_man_packages('redis.html'),packages,27799).
+i(/(redis_sscan,4),"Map the Redis SCAN, SSCAN, HSCAN and ZSCAN‘commands into a lazy list.",swi_man_packages('redis.html'),packages,27799).
+i(/(redis_hscan,4),"Map the Redis SCAN, SSCAN, HSCAN and ZSCAN‘commands into a lazy list.",swi_man_packages('redis.html'),packages,27799).
+i(/(redis_zscan,4),"Map the Redis SCAN, SSCAN, HSCAN and ZSCAN‘commands into a lazy list.",swi_man_packages('redis.html'),packages,27799).
+i(/(redis_current_command,2),"True when Command has Properties.",swi_man_packages('redis.html'),packages,29582).
+i(/(redis_current_command,3),"True when Command has Properties.",swi_man_packages('redis.html'),packages,29582).
+i(/(redis_property,2),"True if Property is a property of the Redis server.",swi_man_packages('redis.html'),packages,30245).
+i(/(redis_subscribe,4),"Subscribe to one or more Redis PUB/SUB channels.",swi_man_packages('redis.html'),packages,30640).
+i(/(redis_subscribe,2),"Add/remove channels from for the subscription.",swi_man_packages('redis.html'),packages,31963).
+i(/(redis_unsubscribe,2),"Add/remove channels from for the subscription.",swi_man_packages('redis.html'),packages,31963).
+i(/(redis_current_subscription,2),"True when a PUB/SUB subscription with Id is listening on Channels.",swi_man_packages('redis.html'),packages,32630).
+i(section(2,'3','sec:redisstreams'),"library(redis_streams): Using Redis streams",swi_man_packages('redis.html'),packages,32893).
+i(/(xstream_set,3),"Set an option on for Key on Redis.",swi_man_packages('redis.html'),packages,34399).
+i(/(xadd,4),"Add a message to a the stream Key on Redis.",swi_man_packages('redis.html'),packages,34999).
+i(/(xlisten,3),"Listen using XREAD on one or more Streams on the server Redis.",swi_man_packages('redis.html'),packages,35635).
+i(/(xlisten_group,5),"Listen as Consumer to Group.",swi_man_packages('redis.html'),packages,37856).
+i(/(xconsumer_stop,1),"May be called from a consumer listener to stop the consumer.",swi_man_packages('redis.html'),packages,39867).
+i(/(xhook,2),"This multifile predicate is called on certain stream events.",swi_man_packages('redis.html'),packages,40209).
+i(section(0,'0','packages/stomp.html'),"STOMP -- a SWI-Prolog STOMP client",swi_man_packages('stomp.html'),packages,2786).
+i(section(2,'1','sec:stomp'),"library(stomp): STOMP client.",swi_man_packages('stomp.html'),packages,3919).
+i(section(3,'1.1','sec:stomp-threading'),"Threading",swi_man_packages('stomp.html'),packages,5229).
+i(section(3,'1.2','sec:stomp-reconnecting'),"Reconnecting",swi_man_packages('stomp.html'),packages,6178).
+i(/(stomp_connection,5),"Create a connection reference.",swi_man_packages('stomp.html'),packages,6809).
+i(/(stomp_connection,6),"Create a connection reference.",swi_man_packages('stomp.html'),packages,6809).
+i(/(stomp_connection_property,2),"True when Property, is a property of Connection.",swi_man_packages('stomp.html'),packages,10316).
+i(/(stomp_destroy_connection,1),"Destroy a connection.",swi_man_packages('stomp.html'),packages,11441).
+i(/(stomp_setup,2),"Set up the actual socket connection and start receiving thread.",swi_man_packages('stomp.html'),packages,11723).
+i(/(stomp_teardown,1),"Tear down the socket connection, stop receiving thread and heartbeat thread (if applicable).",swi_man_packages('stomp.html'),packages,12434).
+i(/(stomp_reconnect,1),"Teardown the connection and try to reconnect.",swi_man_packages('stomp.html'),packages,12936).
+i(/(stomp_connect,1),"Setup the connection.",swi_man_packages('stomp.html'),packages,13154).
+i(/(stomp_connect,2),"Setup the connection.",swi_man_packages('stomp.html'),packages,13154).
+i(/(stomp_send,4),"Send a SEND frame.",swi_man_packages('stomp.html'),packages,14329).
+i(/(stomp_send_json,4),"Send a SEND frame.",swi_man_packages('stomp.html'),packages,14910).
+i(/(stomp_subscribe,4),"Send a SUBSCRIBE frame.",swi_man_packages('stomp.html'),packages,15581).
+i(/(stomp_unsubscribe,2),"Send an UNSUBSCRIBE frame.",swi_man_packages('stomp.html'),packages,16038).
+i(/(stomp_ack,3),"Send an ACK frame.",swi_man_packages('stomp.html'),packages,16482).
+i(/(stomp_nack,3),"Send a NACK frame.",swi_man_packages('stomp.html'),packages,17032).
+i(/(stomp_ack,2),"Reply with an ACK or NACK based on the received message header.",swi_man_packages('stomp.html'),packages,17588).
+i(/(stomp_nack,2),"Reply with an ACK or NACK based on the received message header.",swi_man_packages('stomp.html'),packages,17588).
+i(/(stomp_begin,2),"Send a BEGIN frame.",swi_man_packages('stomp.html'),packages,18203).
+i(/(stomp_commit,2),"Send a COMMIT frame.",swi_man_packages('stomp.html'),packages,18562).
+i(/(stomp_abort,2),"Send a ABORT frame.",swi_man_packages('stomp.html'),packages,18989).
+i(/(stomp_transaction,2),"Run Goal as once/1, tagging all SEND messages inside the transaction with the transaction id.",swi_man_packages('stomp.html'),packages,19411).
+i(/(stomp_disconnect,2),"Send a DISCONNECT frame.",swi_man_packages('stomp.html'),packages,19985).
+i(section(0,'0','packages/pengines.html'),"Pengines: Web Logic Programming Made Easy",swi_man_packages('pengines.html'),packages,2793).
+i(section(2,'1','sec:pengine-overview'),"An overview of Pengines",swi_man_packages('pengines.html'),packages,5099).
+i(section(3,'1.1','sec:pengine-references'),"Pengine references",swi_man_packages('pengines.html'),packages,10584).
+i(section(3,'1.2','sec:pengine-examples'),"Pengine by examples",swi_man_packages('pengines.html'),packages,11614).
+i(section(3,'1.3','sec:pengine-server-code'),"Making predicates available to clients",swi_man_packages('pengines.html'),packages,15400).
+i(section(3,'1.4','sec:prolog-canonical-json'),"Mapping Prolog terms into JSON",swi_man_packages('pengines.html'),packages,17318).
+i(section(3,'1.5','sec:pengine-settings'),"Pengine settings",swi_man_packages('pengines.html'),packages,18948).
+i(section(2,'2','sec:pengine-libs'),"Pengine libraries",swi_man_packages('pengines.html'),packages,19878).
+i(section(3,'2.1','sec:pengines'),"library(pengines): Pengines: Web Logic Programming Made Easy",swi_man_packages('pengines.html'),packages,20041).
+i(/(pengine_create,1),"Creates a new pengine.",swi_man_packages('pengines.html'),packages,20549).
+i(/(pengine_ask,3),"Asks pengine NameOrID a query Query.",swi_man_packages('pengines.html'),packages,23136).
+i(/(pengine_next,2),"Asks pengine NameOrID for the next solution to a query started by pengine_ask/3.",swi_man_packages('pengines.html'),packages,26413).
+i(/(pengine_stop,2),"Tells pengine NameOrID to stop looking for more solutions to a query started by pengine_ask/3.",swi_man_packages('pengines.html'),packages,28448).
+i(/(pengine_abort,1),"Aborts the running query.",swi_man_packages('pengines.html'),packages,29027).
+i(/(pengine_destroy,1),"Destroys the pengine NameOrID.",swi_man_packages('pengines.html'),packages,29419).
+i(/(pengine_destroy,2),"Destroys the pengine NameOrID.",swi_man_packages('pengines.html'),packages,29419).
+i(/(pengine_self,1),"True if the current thread is a pengine with Id.",swi_man_packages('pengines.html'),packages,29974).
+i(/(pengine_application,1),"Directive that must be used to declare a pengine application module.",swi_man_packages('pengines.html'),packages,30192).
+i(/(current_pengine_application,1),"True when Application is a currently defined application.",swi_man_packages('pengines.html'),packages,30831).
+i(/(pengine_property,2),"True when Property is a property of the given Pengine.",swi_man_packages('pengines.html'),packages,31240).
+i(/(pengine_output,1),"Sends Term to the parent pengine or thread.",swi_man_packages('pengines.html'),packages,33288).
+i(/(pengine_debug,2),"Create a message using format/3 from Format and Args and send this to the client.",swi_man_packages('pengines.html'),packages,33507).
+i(/('thread_pool:create_pool',1),"On demand creation of a thread pool for a pengine application.",swi_man_packages('pengines.html'),packages,34389).
+i(/(pengine_done,0),"Called from the pengine thread at_exit option.",swi_man_packages('pengines.html'),packages,34681).
+i(/(prepare_module,3),"Hook, called to initialize the temporary private module that provides the working context of a pengine.",swi_man_packages('pengines.html'),packages,35116).
+i(/(prepare_goal,3),"Pre-preparation hook for running Goal0.",swi_man_packages('pengines.html'),packages,36174).
+i(/(not_sandboxed,2),"This hook is called to see whether the Pengine must be executed in a protected environment.",swi_man_packages('pengines.html'),packages,36898).
+i(/(pengine_pull_response,2),"Pulls a response (an event term) from the slave Pengine if Pengine is a remote process, else does nothing at all.",swi_man_packages('pengines.html'),packages,37699).
+i(/(pengine_input,2),"Sends Prompt to the master (parent) pengine and waits for input.",swi_man_packages('pengines.html'),packages,38028).
+i(/(pengine_respond,3),"Sends a response in the form of the term Input to a slave (child) pengine that has prompted its master (parent) for input.",swi_man_packages('pengines.html'),packages,38351).
+i(/(pengine_event_loop,2),"Starts an event loop accepting event terms sent to the current pengine or thread.",swi_man_packages('pengines.html'),packages,38880).
+i(/(pengine_rpc,2),"Semantically equivalent to the sequence below, except that the query is executed in (and in the Prolog context of) the pengine server referred to by URL, rather than locally.",swi_man_packages('pengines.html'),packages,40168).
+i(/(pengine_rpc,3),"Semantically equivalent to the sequence below, except that the query is executed in (and in the Prolog context of) the pengine server referred to by URL, rather than locally.",swi_man_packages('pengines.html'),packages,40168).
+i(/(prompt,3),"Hook to handle pengine_input/2 from the remote pengine.",swi_man_packages('pengines.html'),packages,41447).
+i(/(output,2),"Hook to handle pengine_output/1 from the remote pengine.",swi_man_packages('pengines.html'),packages,41873).
+i(/(portray_blob,2),"Portray non-text blobs that may appear in output terms.",swi_man_packages('pengines.html'),packages,42233).
+i(/(write_result,3),"Hook that allows for different output formats.",swi_man_packages('pengines.html'),packages,42742).
+i(/(add_error_details,3),"Add format error code and location information to an error.",swi_man_packages('pengines.html'),packages,43251).
+i(/(event_to_json,3),"Hook that translates a Pengine event structure into a term suitable for reply_json/1, according to the language specification Lang.",swi_man_packages('pengines.html'),packages,43505).
+i(/(authentication_hook,3),"This hook is called from the =/pengine/create= HTTP handler to discover whether the server is accessed by an authorized user.",swi_man_packages('pengines.html'),packages,44104).
+i(/(pengine_user,1),"True when the pengine was create by an HTTP request that authorized User.",swi_man_packages('pengines.html'),packages,45269).
+i(section(3,'2.2','sec:termtojson'),"library(term_to_json)",swi_man_packages('pengines.html'),packages,45728).
+i(/(term_to_json,3),"Convert any general Prolog term into a JSON term.",swi_man_packages('pengines.html'),packages,45914).
+i(/(term_to_json,2),"Convert any general Prolog term into a JSON term.",swi_man_packages('pengines.html'),packages,45914).
+i(section(0,'0','packages/pldoc.html'),"SWI-Prolog Source Documentation Version 2",swi_man_packages('pldoc.html'),packages,2793).
+i(section(2,'1','sec:pldoc-intro'),"Introduction",swi_man_packages('pldoc.html'),packages,8247).
+i(section(2,'2','sec:pldoc-overview'),"Overview",swi_man_packages('pldoc.html'),packages,9507).
+i(section(2,'3','sec:pldoc-comments'),"Structured comments",swi_man_packages('pldoc.html'),packages,10733).
+i(section(2,'4','sec:sectioncomments'),"File (module) comments",swi_man_packages('pldoc.html'),packages,12930).
+i(section(2,'5','sec:modes'),"Type, mode and determinism declaration headers",swi_man_packages('pldoc.html'),packages,14053).
+i(section(2,'6','sec:tags'),"Tags: @see, etc.",swi_man_packages('pldoc.html'),packages,21072).
+i(section(2,'7','sec:wiki'),"Wiki notation",swi_man_packages('pldoc.html'),packages,23695).
+i(section(3,'7.1','sec:pldoc-comment-structure'),"Structuring conventions",swi_man_packages('pldoc.html'),packages,24034).
+i(section(3,'7.2','sec:pldoc-markup'),"Text markup: fonts and links",swi_man_packages('pldoc.html'),packages,31434).
+i(section(4,'7.2.1','sec:emph'),"Emphasizing text",swi_man_packages('pldoc.html'),packages,31613).
+i(section(4,'7.2.2','sec:inlinecode'),"Inline code",swi_man_packages('pldoc.html'),packages,34177).
+i(section(4,'7.2.3','sec:pldoc-links'),"Links",swi_man_packages('pldoc.html'),packages,35533).
+i(section(3,'7.3','sec:pldoc-images'),"Images",swi_man_packages('pldoc.html'),packages,38252).
+i(section(2,'8','sec:dirindex'),"Directory indices",swi_man_packages('pldoc.html'),packages,39293).
+i(section(2,'9','sec:wikifiles'),"Documentation files",swi_man_packages('pldoc.html'),packages,39905).
+i(section(2,'10','sec:running'),"Running the documentation system",swi_man_packages('pldoc.html'),packages,40765).
+i(section(3,'10.1','sec:pldoc-development'),"During development",swi_man_packages('pldoc.html'),packages,40936).
+i(/(doc_collect,1),"Enable/disable collecting structured comments into the Prolog database.",swi_man_packages('pldoc.html'),packages,41875).
+i(/(doc_server,1),"Start documentation server at Port.",swi_man_packages('pldoc.html'),packages,42385).
+i(/(doc_server,2),"Start documentation server at Port using Options.",swi_man_packages('pldoc.html'),packages,42897).
+i(/(doc_browser,0),"Open the user's default browser on the running documentation server.",swi_man_packages('pldoc.html'),packages,44914).
+i(/(doc_browser,1),"Open the user's default browser on the specified page.",swi_man_packages('pldoc.html'),packages,45120).
+i(section(3,'10.2','sec:manserver'),"As a manual server",swi_man_packages('pldoc.html'),packages,45603).
+i(/(doc_load_library,0),"Load all library files.",swi_man_packages('pldoc.html'),packages,45978).
+i(section(3,'10.3','sec:browser'),"Using the browser interface",swi_man_packages('pldoc.html'),packages,46563).
+i(section(4,'10.3.1','sec:pldoc-search'),"Searching",swi_man_packages('pldoc.html'),packages,46998).
+i(section(4,'10.3.2','sec:pldoc-views'),"Views",swi_man_packages('pldoc.html'),packages,48221).
+i(section(4,'10.3.3','sec:pldoc-editing'),"Editing",swi_man_packages('pldoc.html'),packages,49793).
+i(section(3,'10.4','sec:docfiles'),"library(doc_files): Create stand-alone documentation files",swi_man_packages('pldoc.html'),packages,50665).
+i(/(doc_save,2),"Save documentation for FileOrDir to file(s).",swi_man_packages('pldoc.html'),packages,51312).
+i(section(3,'10.5','sec:doclatex'),"Including PlDoc in a LaTeX document",swi_man_packages('pldoc.html'),packages,53749).
+i(section(4,'10.5.1','sec:pldoc-latex-predicates'),"Predicate reference for the LaTeX backend",swi_man_packages('pldoc.html'),packages,55166).
+i(/(doc_latex,3),"Process one or more objects, writing the LaTeX output to OutFile.",swi_man_packages('pldoc.html'),packages,55824).
+i(/(latex_for_file,3),"Generate a LaTeX description of all commented predicates in File, writing the LaTeX text to the stream Out.",swi_man_packages('pldoc.html'),packages,57995).
+i(/(latex_for_wiki_file,3),"Write a LaTeX translation of a Wiki file to the steam Out.",swi_man_packages('pldoc.html'),packages,58503).
+i(/(latex_for_predicates,3),"Generate LaTeX for a list of predicate indicators.",swi_man_packages('pldoc.html'),packages,58961).
+i(section(2,'11','sec:motivation'),"Motivation of choices",swi_man_packages('pldoc.html'),packages,59451).
+i(section(2,'12','sec:pldoc-compatibility'),"Compatibility and standards",swi_man_packages('pldoc.html'),packages,63602).
+i(section(0,'0','packages/plunit.html'),"Prolog Unit Tests",swi_man_packages('plunit.html'),packages,2769).
+i(section(2,'1','sec:plunit-intro'),"Introduction",swi_man_packages('plunit.html'),packages,6589).
+i(section(2,'2','sec:unitbox'),"A Unit Test box",swi_man_packages('plunit.html'),packages,7524).
+i(section(3,'2.1','sec:unitoptions'),"Test Unit options",swi_man_packages('plunit.html'),packages,16093).
+i(/(begin_tests,1),"Start named test-unit.",swi_man_packages('plunit.html'),packages,16275).
+i(/(begin_tests,2),"Start named test-unit with options.",swi_man_packages('plunit.html'),packages,16465).
+i(section(3,'2.2','sec:testbody'),"Writing the test body",swi_man_packages('plunit.html'),packages,17656).
+i(section(4,'2.2.1','sec:testdet'),"Testing deterministic predicates",swi_man_packages('plunit.html'),packages,18331).
+i(section(4,'2.2.2','sec:testsemidet'),"Testing semi-deterministic predicates",swi_man_packages('plunit.html'),packages,19596).
+i(section(4,'2.2.3','sec:testnondet'),"Testing non-deterministic predicates",swi_man_packages('plunit.html'),packages,20244).
+i(section(4,'2.2.4','sec:testerror'),"Testing error conditions",swi_man_packages('plunit.html'),packages,20964).
+i(section(4,'2.2.5','sec:testassertion'),"One body with multiple tests using assertions",swi_man_packages('plunit.html'),packages,21541).
+i(section(2,'3','sec:testfiles'),"Using separate test files",swi_man_packages('plunit.html'),packages,23966).
+i(section(2,'4','sec:pldoc-running'),"Running the test-suite",swi_man_packages('plunit.html'),packages,24546).
+i(section(3,'4.1','sec:pldoc-running-repl'),"Running the test suite from Prolog",swi_man_packages('plunit.html'),packages,24717).
+i(/(run_tests,0),"Run all test-units.",swi_man_packages('plunit.html'),packages,25124).
+i(/(run_tests,1),"Run only the specified tests.",swi_man_packages('plunit.html'),packages,25245).
+i(section(3,'4.2','sec:pldoc-running-cli'),"Running the test suite from the command line",swi_man_packages('plunit.html'),packages,26157).
+i(section(2,'5','sec:state'),"Tests and production systems",swi_man_packages('plunit.html'),packages,26866).
+i(section(2,'6','sec:options'),"Controlling the test suite",swi_man_packages('plunit.html'),packages,27402).
+i(/(set_test_options,1),"Defined options are: load(+Load)Determines whether or not tests are loaded.",swi_man_packages('plunit.html'),packages,27581).
+i(/(load_test_files,1),"Load .plt test-files that belong to the currently loaded sources.",swi_man_packages('plunit.html'),packages,29413).
+i(/(running_tests,0),"Print all currently running tests to the terminal.",swi_man_packages('plunit.html'),packages,29627).
+i(/(test_report,1),"Print report on the executed tests.",swi_man_packages('plunit.html'),packages,29929).
+i(section(2,'7','sec:wizard'),"Auto-generating tests",swi_man_packages('plunit.html'),packages,30254).
+i(section(2,'8','sec:testcover'),"library(test_cover): Clause coverage analysis",swi_man_packages('plunit.html'),packages,32429).
+i(/(show_coverage,1),"Report on coverage by Goal.",swi_man_packages('plunit.html'),packages,33970).
+i(/(show_coverage,2),"Report on coverage by Goal.",swi_man_packages('plunit.html'),packages,33970).
+i(/(assert_cover,2),"Assert coverage of the current clause.",swi_man_packages('plunit.html'),packages,35865).
+i(section(2,'9','sec:porting'),"Portability of the test-suite",swi_man_packages('plunit.html'),packages,36224).
+i(section(3,'9.1','sec:sicstus'),"PlUnit on SICStus",swi_man_packages('plunit.html'),packages,37272).
+i(section(2,'10','sec:plunit-motivation'),"Motivation of choices",swi_man_packages('plunit.html'),packages,38572).
+i(section(0,'0','packages/protobufs.html'),"Google's Protocol Buffers Library",swi_man_packages('protobufs.html'),packages,2785).
+i(section(2,'1','sec:protobufs-main'),"Google's Protocol Buffers",swi_man_packages('protobufs.html'),packages,6616).
+i(section(3,'1.1','sec:protobufs-overview'),"Overview",swi_man_packages('protobufs.html'),packages,6795).
+i(section(3,'1.2','sec:protobufs-processing-with-prolog'),"Processing protobufs with Prolog",swi_man_packages('protobufs.html'),packages,8394).
+i(section(3,'1.3','sec:protobufs-protoc'),"protoc",swi_man_packages('protobufs.html'),packages,9090).
+i(section(4,'1.3.1','sec:protobufs-serialize-to-codes'),"protobuf_serialize_to_codes/3",swi_man_packages('protobufs.html'),packages,11790).
+i(section(4,'1.3.2','sec:protobufs-parse-from-codes'),"protobuf_parse_from_codes/3",swi_man_packages('protobufs.html'),packages,13446).
+i(section(4,'1.3.3','sec:protobufs-addressbook-example'),"addressbook example",swi_man_packages('protobufs.html'),packages,16185).
+i(section(3,'1.4','sec:protobufs-swipl'),"The low-level SWI-Prolog Implementation",swi_man_packages('protobufs.html'),packages,16956).
+i(section(4,'1.4.1','sec:protobufs-wire-types'),"Wiretypes",swi_man_packages('protobufs.html'),packages,21456).
+i(section(4,'1.4.2','sec:protobufs-tags'),"Tags (field numbers)",swi_man_packages('protobufs.html'),packages,27032).
+i(section(4,'1.4.3','sec:protobufs-basic-usage'),"Basic Usage",swi_man_packages('protobufs.html'),packages,27802).
+i(section(4,'1.4.4','sec:protobufs-aaee'),"Alternation, Aggregation, Encapsulation, and Enumeration",swi_man_packages('protobufs.html'),packages,31705).
+i(section(4,'1.4.5','sec:protobufs-groups'),"Groups (deprecated)",swi_man_packages('protobufs.html'),packages,39490).
+i(section(4,'1.4.6','sec:protobufs-advanced'),"Advanced Topics",swi_man_packages('protobufs.html'),packages,40084).
+i(section(2,'2','sec:protobufs-appendix'),"Appendix",swi_man_packages('protobufs.html'),packages,42311).
+i(section(3,'2.1','sec:protobufs-ex-xml'),"Example: A Simple XML Like Structure",swi_man_packages('protobufs.html'),packages,42480).
+i(section(3,'2.2','sec:protobufs-ex-vector-of-numbers'),"Example: Vectors of Numbers",swi_man_packages('protobufs.html'),packages,47020).
+i(section(3,'2.3','sec:protobufs-ex-heterogeneous'),"Example: Heterogeneous Collections",swi_man_packages('protobufs.html'),packages,49590).
+i(section(2,'3','sec:protobufs'),"library(protobufs): Google's Protocol Buffers (\"protobufs\")",swi_man_packages('protobufs.html'),packages,51756).
+i(/(protobuf_parse_from_codes,3),"Process bytes (list of int) that is the serialized form of a message (designated by MessageType), creating a Prolog term.",swi_man_packages('protobufs.html'),packages,57241).
+i(/(protobuf_serialize_to_codes,3),"Process a Prolog term into bytes (list of int) that is the serialized form of a message (designated by MessageType).",swi_man_packages('protobufs.html'),packages,61738).
+i(/(protobuf_message,2),"Marshals and unmarshals byte streams encoded using Google's Protobuf grammars.",swi_man_packages('protobufs.html'),packages,64452).
+i(/(protobuf_message,3),"Marshals and unmarshals byte streams encoded using Google's Protobuf grammars.",swi_man_packages('protobufs.html'),packages,64452).
+i(/(protobuf_field_is_map,2),"Succeeds if MessageType’s FieldName is defined as a map<...> in the .proto file.",swi_man_packages('protobufs.html'),packages,66168).
+i(/(protobuf_map_pairs,3),"Convert between a list of protobuf map entries (in the form DictTag{key:Key, value:Value} and a key-value list as described in library(pairs).",swi_man_packages('protobufs.html'),packages,66512).
+i(section(0,'0','packages/rdf2pl.html'),"SWI-Prolog RDF parser",swi_man_packages('rdf2pl.html'),packages,2772).
+i(section(2,'1','sec:rdfxml-intro'),"Introduction",swi_man_packages('rdf2pl.html'),packages,5024).
+i(section(2,'2','sec:rdfxml-parser'),"Parsing RDF in Prolog",swi_man_packages('rdf2pl.html'),packages,6685).
+i(section(2,'3','sec:rdfxml-predicates'),"Predicates for parsing RDF/XML",swi_man_packages('rdf2pl.html'),packages,9555).
+i(/(load_rdf,2),"Same as load_rdf(File, Triples,[]).",swi_man_packages('rdf2pl.html'),packages,10320).
+i(/(load_rdf,3),"Read the RDF-XML file File and return a list of Triples.",swi_man_packages('rdf2pl.html'),packages,10497).
+i(section(3,'3.1','sec:rdfobject'),"RDF Object representation",swi_man_packages('rdf2pl.html'),packages,14448).
+i(section(3,'3.2','sec:rdfxml-name-spaces'),"Name spaces",swi_man_packages('rdf2pl.html'),packages,15897).
+i(section(3,'3.3','sec:rdfxml-low-level'),"Low-level access",swi_man_packages('rdf2pl.html'),packages,17021).
+i(/(xml_to_rdf,3),"Process an XML term produced by load_structure/3 using the dialect(xmlns) output option.",swi_man_packages('rdf2pl.html'),packages,17860).
+i(/(process_rdf,3),"Exploits the call-back interface of sgml2pl, calling OnTriples(Triples, File:Line) with the list of triples resulting from a single top level RDF object for each RDF element in the input as well as the source-location where the description started.",swi_man_packages('rdf2pl.html'),packages,18330).
+i(section(2,'4','sec:rdfxml-write'),"Writing RDF graphs",swi_man_packages('rdf2pl.html'),packages,20106).
+i(/(rdf_write_xml,2),"Write an RDF/XML document to Stream from the list of Triples.",swi_man_packages('rdf2pl.html'),packages,21090).
+i(section(2,'5','sec:rdfxml-tests'),"Testing the RDF translator",swi_man_packages('rdf2pl.html'),packages,21943).
+i(/(suite,1),"Run test N using the file suite/tN.rdf and display the RDF source, the intermediate Prolog representation and the resulting triples.",swi_man_packages('rdf2pl.html'),packages,22467).
+i(/(passed,1),"Process suite/tN.rdf and store the resulting triples in suite/ok/tN.pl for later validation by test/0.",swi_man_packages('rdf2pl.html'),packages,22735).
+i(/(test,0),"Run all tests and classify the result.",swi_man_packages('rdf2pl.html'),packages,23034).
+i(section(2,'6','sec:rdfxml-metrics'),"Metrics",swi_man_packages('rdf2pl.html'),packages,23175).
+i(section(0,'0','packages/semweb.html'),"SWI-Prolog Semantic Web Library 3.0",swi_man_packages('semweb.html'),packages,2787).
+i(section(2,'1','sec:semweb-intro'),"Introduction",swi_man_packages('semweb.html'),packages,13144).
+i(section(2,'2','sec:semweb-scalability'),"Scalability",swi_man_packages('semweb.html'),packages,16525).
+i(section(2,'3','sec:semweb-rdfapi'),"Two RDF APIs",swi_man_packages('semweb.html'),packages,17417).
+i(section(3,'3.1','sec:semweb-rdf11'),"library(semweb/rdf11): The RDF database",swi_man_packages('semweb.html'),packages,18196).
+i(section(4,'3.1.1','sec:rdf11-query'),"Query the RDF database",swi_man_packages('semweb.html'),packages,18522).
+i(/(rdf,3),"True if an RDF triple <S,P,O> exists, optionally in the graph G.",swi_man_packages('semweb.html'),packages,18716).
+i(/(rdf,4),"True if an RDF triple <S,P,O> exists, optionally in the graph G.",swi_man_packages('semweb.html'),packages,18716).
+i(/(rdf_has,3),"Similar to rdf/3 and rdf/4, but P matches all predicates that are defined as an rdfs:subPropertyOf of P.",swi_man_packages('semweb.html'),packages,23390).
+i(/(rdf_has,4),"Similar to rdf/3 and rdf/4, but P matches all predicates that are defined as an rdfs:subPropertyOf of P.",swi_man_packages('semweb.html'),packages,23390).
+i(/(rdf_reachable,3),"True when O can be reached from S using the transitive closure of P.",swi_man_packages('semweb.html'),packages,24069).
+i(/(rdf_reachable,5),"True when O can be reached from S using the transitive closure of P.",swi_man_packages('semweb.html'),packages,24069).
+i(/({},1),"Formulate constraints on RDF terms, notably literals.",swi_man_packages('semweb.html'),packages,25124).
+i(/(rdf_where,1),"Formulate constraints on RDF terms, notably literals.",swi_man_packages('semweb.html'),packages,25124).
+i(section(4,'3.1.2','sec:rdf11-enum'),"Enumerating and testing objects",swi_man_packages('semweb.html'),packages,27531).
+i(/(rdf_subject,1),"True when S is a currently known subject, i.e.",swi_man_packages('semweb.html'),packages,27799).
+i(/(rdf_predicate,1),"True when P is a currently known predicate, i.e.",swi_man_packages('semweb.html'),packages,28141).
+i(/(rdf_object,1),"True when O is a currently known object, i.e.",swi_man_packages('semweb.html'),packages,28484).
+i(/(rdf_node,1),"True when T appears in the subject or object position of a known triple, i.e., is a node in the RDF graph.",swi_man_packages('semweb.html'),packages,28914).
+i(/(rdf_graph,1),"True when Graph is an existing graph.",swi_man_packages('semweb.html'),packages,29185).
+i(/(rdf_literal,1),"True if Term is a known literal.",swi_man_packages('semweb.html'),packages,29491).
+i(/(rdf_bnode,1),"True if BNode is a currently known blank node.",swi_man_packages('semweb.html'),packages,29865).
+i(/(rdf_iri,1),"True if IRI is a current IRI.",swi_man_packages('semweb.html'),packages,30145).
+i(/(rdf_name,1),"True if Name is a current IRI or literal.",swi_man_packages('semweb.html'),packages,30411).
+i(/(rdf_term,1),"True if Term appears in the RDF database.",swi_man_packages('semweb.html'),packages,30681).
+i(/(rdf_is_iri,1),"True if IRI is an RDF IRI term.",swi_man_packages('semweb.html'),packages,31255).
+i(/(rdf_is_bnode,1),"True if Term is an RDF blank node identifier.",swi_man_packages('semweb.html'),packages,31870).
+i(/(rdf_is_literal,1),"True if Term is an RDF literal term.",swi_man_packages('semweb.html'),packages,32472).
+i(/(rdf_is_name,1),"True if Term is an RDF Name, i.e., an IRI or literal.",swi_man_packages('semweb.html'),packages,32975).
+i(/(rdf_is_object,1),"True if Term can appear in the object position of a triple.",swi_man_packages('semweb.html'),packages,33376).
+i(/(rdf_is_predicate,1),"True if Term can appear in the predicate position of a triple.",swi_man_packages('semweb.html'),packages,33937).
+i(/(rdf_is_subject,1),"True if Term can appear in the subject position of a triple.",swi_man_packages('semweb.html'),packages,34489).
+i(/(rdf_is_term,1),"True if Term can be used as an RDF term, i.e., if Term is either an IRI, a blank node or an RDF literal.",swi_man_packages('semweb.html'),packages,35110).
+i(section(4,'3.1.3','sec:rdf11-literal'),"RDF literals",swi_man_packages('semweb.html'),packages,35564).
+i(/(rdf_canonical_literal,2),"Transform a relaxed literal specification as allowed for rdf_assert/3 into its canonical form.",swi_man_packages('semweb.html'),packages,35752).
+i(/(rdf_lexical_form,2),"True when Lexical is the lexical form for the literal Literal.",swi_man_packages('semweb.html'),packages,37048).
+i(/(rdf_compare,3),"True if the RDF terms Left and Right are ordered according to the comparison operator Diff.",swi_man_packages('semweb.html'),packages,37653).
+i(section(4,'3.1.4','sec:rdf11-graph'),"Accessing RDF graphs",swi_man_packages('semweb.html'),packages,38643).
+i(/(rdf_default_graph,1),"Query/set the notion of the default graph.",swi_man_packages('semweb.html'),packages,38835).
+i(/(rdf_default_graph,2),"Query/set the notion of the default graph.",swi_man_packages('semweb.html'),packages,38835).
+i(section(4,'3.1.5','sec:rdf11-modify'),"Modifying the RDF store",swi_man_packages('semweb.html'),packages,39381).
+i(/(rdf_assert,3),"Assert a new triple.",swi_man_packages('semweb.html'),packages,39578).
+i(/(rdf_assert,4),"Assert a new triple.",swi_man_packages('semweb.html'),packages,39578).
+i(/(rdf_retractall,3),"Remove all matching triples from the database.",swi_man_packages('semweb.html'),packages,40375).
+i(/(rdf_retractall,4),"Remove all matching triples from the database.",swi_man_packages('semweb.html'),packages,40375).
+i(/(rdf_create_bnode,1),"Create a new BNode.",swi_man_packages('semweb.html'),packages,40887).
+i(section(4,'3.1.6','sec:rdf11-collections'),"Accessing RDF collections",swi_man_packages('semweb.html'),packages,41226).
+i(/(rdf_last,2),"True when Last is the last element of RDFList.",swi_man_packages('semweb.html'),packages,41651).
+i(/(rdf_list,1),"True if RDFTerm is a proper RDF list.",swi_man_packages('semweb.html'),packages,41975).
+i(/(rdf_list,2),"True when PrologList represents the rdf:first objects for all cells in RDFList.",swi_man_packages('semweb.html'),packages,42526).
+i(/(rdf_length,2),"True when Length is the number of cells in RDFList.",swi_man_packages('semweb.html'),packages,42893).
+i(/(rdf_member,2),"True when Member is a member of RDFList",swi_man_packages('semweb.html'),packages,43373).
+i(/(rdf_nth0,3),"True when X is the Index-th element (0-based or 1-based) of RDFList.",swi_man_packages('semweb.html'),packages,43607).
+i(/(rdf_nth1,3),"True when X is the Index-th element (0-based or 1-based) of RDFList.",swi_man_packages('semweb.html'),packages,43607).
+i(/(rdf_assert_list,2),"Create an RDF list from the given Prolog List.",swi_man_packages('semweb.html'),packages,44147).
+i(/(rdf_assert_list,3),"Create an RDF list from the given Prolog List.",swi_man_packages('semweb.html'),packages,44147).
+i(/(rdf_retract_list,1),"Retract the rdf:first, rdf:rest and rdf:type=rdf:'List' triples from all nodes reachable through rdf:rest.",swi_man_packages('semweb.html'),packages,44890).
+i(section(3,'3.2','sec:rdf11containers'),"library(semweb/rdf11_containers): RDF 1.1 Containers",swi_man_packages('semweb.html'),packages,45249).
+i(/(rdf_alt,3),"True when Alt is an instance of rdf:Alt with first member Default and remaining members Others.",swi_man_packages('semweb.html'),packages,46212).
+i(/(rdf_assert_alt,3),"Create an rdf:Alt with the given Default and Others.",swi_man_packages('semweb.html'),packages,47029).
+i(/(rdf_assert_alt,4),"Create an rdf:Alt with the given Default and Others.",swi_man_packages('semweb.html'),packages,47029).
+i(/(rdf_bag,2),"True when Bag is an rdf:Bag and set is the set values related through container membership properties to Bag.",swi_man_packages('semweb.html'),packages,47616).
+i(/(rdf_assert_bag,2),"Create an rdf:Bag from the given set of values.",swi_man_packages('semweb.html'),packages,48169).
+i(/(rdf_assert_bag,3),"Create an rdf:Bag from the given set of values.",swi_man_packages('semweb.html'),packages,48169).
+i(/(rdf_seq,2),"True when Seq is an instance of rdf:Seq and List is a list of associated values, ordered according to the container membership property used.",swi_man_packages('semweb.html'),packages,48677).
+i(/(rdf_assert_seq,2),"",swi_man_packages('semweb.html'),packages,49259).
+i(/(rdf_assert_seq,3),"",swi_man_packages('semweb.html'),packages,49259).
+i(/(rdfs_container,2),"True when List is the list of objects attached to Container using a container membership property (rdf:_0, rdf:_1, ...).",swi_man_packages('semweb.html'),packages,49584).
+i(/(rdfs_container_membership_property,1),"True when Property is a container membership property (rdf:_1, rdf:_2, ...).",swi_man_packages('semweb.html'),packages,50065).
+i(/(rdfs_container_membership_property,2),"True when Property is the Nth container membership property.",swi_man_packages('semweb.html'),packages,50365).
+i(/(rdfs_member,2),"True if rdf(Container, P, Elem) is true and P is a container membership property.",swi_man_packages('semweb.html'),packages,50759).
+i(/(rdfs_nth0,3),"True if rdf(Container, P, Elem) is true and P is the N-th (0-based) container membership property.",swi_man_packages('semweb.html'),packages,51029).
+i(section(3,'3.3','sec:semweb-rdf-db'),"library(semweb/rdf_db): The RDF database",swi_man_packages('semweb.html'),packages,51338).
+i(section(4,'3.3.1','sec:semweb-query'),"Query the RDF database",swi_man_packages('semweb.html'),packages,53358).
+i(/(rdf,3),"Elementary query for triples.",swi_man_packages('semweb.html'),packages,53554).
+i(/(rdf,4),"As rdf/3 but in addition query the graph to which the triple belongs.",swi_man_packages('semweb.html'),packages,58470).
+i(/(rdf_has,3),"Succeeds if the triple rdf(Subject, Predicate, Object) is true exploiting the rdfs:subPropertyOf predicate as well as inverse predicates declared using rdf_set_predicate/2 with the inverse_of property.",swi_man_packages('semweb.html'),packages,59053).
+i(/(rdf_has,4),"Same as rdf_has/3, but RealPredicate is unified to the actual predicate that makes this relation true.",swi_man_packages('semweb.html'),packages,59510).
+i(/(rdf_reachable,3),"Is true if Object can be reached from Subject following the transitive predicate Predicate or a sub-property thereof, while repecting the symetric(true) or inverse_of(P2) properties.",swi_man_packages('semweb.html'),packages,60058).
+i(/(rdf_reachable,5),"Same as rdf_reachable/3, but in addition, MaxD limits the number of edges expanded and D is unified with the‘distance' between Subject and Object.",swi_man_packages('semweb.html'),packages,61524).
+i(section(4,'3.3.2','sec:semweb-enumerate'),"Enumerating objects",swi_man_packages('semweb.html'),packages,62149).
+i(/(rdf_subject,1),"True if Resource appears as a subject.",swi_man_packages('semweb.html'),packages,62714).
+i(/(rdf_resource,1),"True when Resource is a resource used as a subject or object in a triple.",swi_man_packages('semweb.html'),packages,63134).
+i(/(rdf_current_predicate,1),"True when Predicate is a currently known predicate.",swi_man_packages('semweb.html'),packages,63604).
+i(/(rdf_current_literal,1),"True when Literal is a currently known literal.",swi_man_packages('semweb.html'),packages,64499).
+i(/(rdf_graph,1),"True when Graph is an existing graph.",swi_man_packages('semweb.html'),packages,65003).
+i(/(rdf_current_ns,2),"deprecatedUse rdf_current_prefix/2.",swi_man_packages('semweb.html'),packages,65210).
+i(section(4,'3.3.3','sec:semweb-modify'),"Modifying the RDF database",swi_man_packages('semweb.html'),packages,65541).
+i(/(rdf_assert,3),"Assert a new triple into the database.",swi_man_packages('semweb.html'),packages,66250).
+i(/(rdf_assert,4),"As rdf_assert/3, adding the predicate to the indicated named graph.",swi_man_packages('semweb.html'),packages,67018).
+i(/(rdf_retractall,3),"Remove all matching triples from the database.",swi_man_packages('semweb.html'),packages,67524).
+i(/(rdf_retractall,4),"As rdf_retractall/3, also matching Graph.",swi_man_packages('semweb.html'),packages,67850).
+i(/(rdf_update,4),"Replaces one of the three (four) fields on the matching triples depending on Action: subject(Resource)Changes the first field of the triple.",swi_man_packages('semweb.html'),packages,68287).
+i(/(rdf_update,5),"Replaces one of the three (four) fields on the matching triples depending on Action: subject(Resource)Changes the first field of the triple.",swi_man_packages('semweb.html'),packages,68287).
+i(section(4,'3.3.4','sec:semweb-update-view'),"Update view, transactions and snapshots",swi_man_packages('semweb.html'),packages,69512).
+i(/(rdf_transaction,1),"Same as rdf_transaction(Goal, user, []).",swi_man_packages('semweb.html'),packages,69924).
+i(/(rdf_transaction,2),"Same as rdf_transaction(Goal, Id, []).",swi_man_packages('semweb.html'),packages,70217).
+i(/(rdf_transaction,3),"Run Goal in an RDF transaction.",swi_man_packages('semweb.html'),packages,70514).
+i(/(rdf_snapshot,1),"Take a snapshot of the current state of the RDF store.",swi_man_packages('semweb.html'),packages,72022).
+i(/(rdf_delete_snapshot,1),"Delete a snapshot as obtained from rdf_snapshot/1.",swi_man_packages('semweb.html'),packages,72577).
+i(/(rdf_active_transaction,1),"True if Id is the identifier of a transaction in the context of which this call is executed.",swi_man_packages('semweb.html'),packages,72950).
+i(/(rdf_current_snapshot,1),"True when Term is a currently known snapshot.",swi_man_packages('semweb.html'),packages,73481).
+i(section(4,'3.3.5','sec:semweb-typecheck'),"Type checking predicates",swi_man_packages('semweb.html'),packages,73824).
+i(/(rdf_is_resource,1),"True if Term is an RDF resource.",swi_man_packages('semweb.html'),packages,74030).
+i(/(rdf_is_bnode,1),"Tests if a resource is a blank node (i.e.",swi_man_packages('semweb.html'),packages,74511).
+i(/(rdf_is_literal,1),"True if Term is an RDF literal object.",swi_man_packages('semweb.html'),packages,74990).
+i(section(4,'3.3.6','sec:semweb-load-save'),"Loading and saving to file",swi_man_packages('semweb.html'),packages,75282).
+i(/(rdf_load,1),"Same as rdf_load(FileOrList, []).",swi_man_packages('semweb.html'),packages,75801).
+i(/(rdf_load,2),"Load RDF data.",swi_man_packages('semweb.html'),packages,76061).
+i(/(rdf_unload,1),"Identify the graph loaded from Source and use rdf_unload_graph/1 to erase this graph.",swi_man_packages('semweb.html'),packages,80555).
+i(/(rdf_save,1),"Same as rdf_save(Out, []).",swi_man_packages('semweb.html'),packages,81122).
+i(/(rdf_save,2),"Write RDF data as RDF/XML.",swi_man_packages('semweb.html'),packages,81381).
+i(/(rdf_make,0),"Reload all loaded files that have been modified since the last time they were loaded.",swi_man_packages('semweb.html'),packages,84322).
+i(/(rdf_save_header,2),"Save XML document header, doctype and open the RDF environment.",swi_man_packages('semweb.html'),packages,84961).
+i(/(rdf_save_footer,1),"Finish XML generation and write the document footer.",swi_man_packages('semweb.html'),packages,86094).
+i(/(rdf_save_subject,3),"Save the triples associated to Subject to Out.",swi_man_packages('semweb.html'),packages,86518).
+i(/(rdf_save_db,1),"Save triples into File in a quick-to-load binary format.",swi_man_packages('semweb.html'),packages,87965).
+i(/(rdf_save_db,2),"Save triples into File in a quick-to-load binary format.",swi_man_packages('semweb.html'),packages,87965).
+i(/(rdf_load_db,1),"Load triples from a file created using rdf_save_db/2.",swi_man_packages('semweb.html'),packages,88530).
+i(section(4,'3.3.7','sec:semweb-graphs'),"Graph manipulation",swi_man_packages('semweb.html'),packages,88795).
+i(/(rdf_create_graph,1),"Create an RDF graph without triples.",swi_man_packages('semweb.html'),packages,89314).
+i(/(rdf_unload_graph,1),"Remove Graph from the RDF store.",swi_man_packages('semweb.html'),packages,89568).
+i(/(rdf_graph_property,2),"True when Property is a property of Graph.",swi_man_packages('semweb.html'),packages,89835).
+i(/(rdf_set_graph,2),"Set properties of Graph.",swi_man_packages('semweb.html'),packages,91463).
+i(section(4,'3.3.8','sec:semweb-literals'),"Literal matching and indexing",swi_man_packages('semweb.html'),packages,91869).
+i(section(4,'3.3.9','sec:semweb-predicates'),"Predicate properties",swi_man_packages('semweb.html'),packages,94391).
+i(/(rdf_set_predicate,2),"Define a property of the predicate.",swi_man_packages('semweb.html'),packages,95091).
+i(/(rdf_predicate_property,2),"Query properties of a defined predicate.",swi_man_packages('semweb.html'),packages,96396).
+i(section(4,'3.3.10','sec:semweb-prefixes'),"Prefix Handling",swi_man_packages('semweb.html'),packages,99530).
+i(/(rdf_current_prefix,2),"Query predefined prefixes and prefixes defined with rdf_register_prefix/2 and local prefixes defined with rdf_prefix/2.",swi_man_packages('semweb.html'),packages,100534).
+i(/(rdf_register_prefix,2),"Register Prefix as an abbreviation for URI.",swi_man_packages('semweb.html'),packages,101295).
+i(/(rdf_register_prefix,3),"Register Prefix as an abbreviation for URI.",swi_man_packages('semweb.html'),packages,101295).
+i(/(rdf_equal,2),"Simple equality test to exploit goal-expansion.",swi_man_packages('semweb.html'),packages,104140).
+i(/(rdf_global_id,2),"Convert between Prefix:Local and full IRI (an atom).",swi_man_packages('semweb.html'),packages,104325).
+i(/(rdf_global_object,2),"Same as rdf_global_id/2, but intended for dealing with the object part of a triple, in particular the type for typed literals.",swi_man_packages('semweb.html'),packages,105555).
+i(/(rdf_global_term,2),"Performs rdf_global_id/2 on predixed IRIs and rdf_global_object/2 on RDF literals, by recursively analysing the term.",swi_man_packages('semweb.html'),packages,106366).
+i(section(4,'3.3.11','sec:semweb-misc'),"Miscellaneous predicates",swi_man_packages('semweb.html'),packages,109225).
+i(/(rdf_bnode,1),"Generate a unique anonymous identifier for a subject.",swi_man_packages('semweb.html'),packages,109526).
+i(/(rdf_source_location,2),"True when triples for Subject are loaded from Location.",swi_man_packages('semweb.html'),packages,109697).
+i(/(rdf_generation,1),"True when Generation is the current generation of the database.",swi_man_packages('semweb.html'),packages,110070).
+i(/(rdf_estimate_complexity,4),"Return the number of alternatives as indicated by the database internal hashed indexing.",swi_man_packages('semweb.html'),packages,111015).
+i(/(rdf_statistics,1),"Obtain statistics on the RDF database.",swi_man_packages('semweb.html'),packages,111778).
+i(/(rdf_match_label,3),"True if Label matches Pattern according to How.",swi_man_packages('semweb.html'),packages,114243).
+i(/(lang_matches,2),"True if Lang matches Pattern.",swi_man_packages('semweb.html'),packages,114729).
+i(/(lang_equal,2),"True if two RFC language specifiers denote the same language See alsolang_matches/2.",swi_man_packages('semweb.html'),packages,115264).
+i(/(rdf_reset_db,0),"Remove all triples from the RDF database and reset all its statistics.",swi_man_packages('semweb.html'),packages,115622).
+i(/(rdf_version,1),"True when Version is the numerical version-id of this library.",swi_man_packages('semweb.html'),packages,116118).
+i(section(4,'3.3.12','sec:semweb-memory-management'),"Memory management considerations",swi_man_packages('semweb.html'),packages,116456).
+i(/(rdf_set,1),"Set properties of the RDF store.",swi_man_packages('semweb.html'),packages,119468).
+i(/(rdf_gc,0),"Run the RDF-DB garbage collector until no garbage is left and all tables are fully optimized.",swi_man_packages('semweb.html'),packages,123177).
+i(/(rdf_update_duplicates,0),"Update the duplicate administration of the RDF store.",swi_man_packages('semweb.html'),packages,123713).
+i(section(3,'3.4','sec:rdfmonitor'),"Monitoring the database",swi_man_packages('semweb.html'),packages,124406).
+i(/(rdf_monitor,2),"Goal is called for modifications of the database.",swi_man_packages('semweb.html'),packages,125121).
+i(section(3,'3.5','sec:rdfissues'),"Issues with rdf_db",swi_man_packages('semweb.html'),packages,129825).
+i(section(2,'4','sec:plugin'),"Plugin modules for rdf_db",swi_man_packages('semweb.html'),packages,130810).
+i(section(3,'4.1','sec:semweb-hooks'),"Hooks into the RDF library",swi_man_packages('semweb.html'),packages,131454).
+i(/('rdf_db:rdf_open_hook',3),"Open an input.",swi_man_packages('semweb.html'),packages,132932).
+i(/('rdf_db:rdf_load_stream',3),"Actually load the RDF from Stream into the RDF database.",swi_man_packages('semweb.html'),packages,133444).
+i(/('rdf_db:rdf_input_info',3),"Gather information on Input.",swi_man_packages('semweb.html'),packages,133907).
+i(/('rdf_db:rdf_file_type',2),"True if Format is the default RDF file format for files with the given extension.",swi_man_packages('semweb.html'),packages,134576).
+i(/('rdf_db:url_protocol',1),"True if Protocol is a URL protocol recognised by rdf_load/2.",swi_man_packages('semweb.html'),packages,135117).
+i(section(3,'4.2','sec:semweb-zlib'),"library(semweb/rdf_zlib_plugin): Reading compressed RDF",swi_man_packages('semweb.html'),packages,135410).
+i(section(3,'4.3','sec:http'),"library(semweb/rdf_http_plugin): Reading RDF from a HTTP server",swi_man_packages('semweb.html'),packages,135988).
+i(section(3,'4.4','sec:rdfcache'),"library(semweb/rdf_cache): Cache RDF triples",swi_man_packages('semweb.html'),packages,136811).
+i(/(rdf_set_cache_options,1),"Change the cache policy.",swi_man_packages('semweb.html'),packages,138273).
+i(/(rdf_cache_file,3),"File is the cache file for URL.",swi_man_packages('semweb.html'),packages,139020).
+i(section(3,'4.5','sec:rdflitindex'),"library(semweb/rdf_litindex): Indexing words in literals",swi_man_packages('semweb.html'),packages,139448).
+i(/(rdf_find_literals,2),"Find literals (without type or language specification) that satisfy Spec.",swi_man_packages('semweb.html'),packages,140028).
+i(/(rdf_token_expansions,2),"Uses the same database as rdf_find_literals/2 to find possible expansions of Spec, i.e.",swi_man_packages('semweb.html'),packages,142733).
+i(/(rdf_tokenize_literal,2),"Tokenize a literal, returning a list of atoms and integers in the range -1073741824 ... 1073741823.",swi_man_packages('semweb.html'),packages,144378).
+i(section(4,'4.5.1','sec:rdflitmap'),"Literal maps: Creating additional indices on literals",swi_man_packages('semweb.html'),packages,145424).
+i(/(rdf_new_literal_map,1),"Create a new literal map, returning an opaque handle.",swi_man_packages('semweb.html'),packages,146775).
+i(/(rdf_destroy_literal_map,1),"Destroy a literal map.",swi_man_packages('semweb.html'),packages,146967).
+i(/(rdf_reset_literal_map,1),"Delete all content from the literal map.",swi_man_packages('semweb.html'),packages,147506).
+i(/(rdf_insert_literal_map,3),"Add a relation between Key and Value to the map.",swi_man_packages('semweb.html'),packages,147689).
+i(/(rdf_insert_literal_map,4),"As rdf_insert_literal_map/3.",swi_man_packages('semweb.html'),packages,147976).
+i(/(rdf_delete_literal_map,2),"Delete Key and all associated values from the map.",swi_man_packages('semweb.html'),packages,148603).
+i(/(rdf_delete_literal_map,2),"Delete the association between Key and Value from the map.",swi_man_packages('semweb.html'),packages,148834).
+i(/(rdf_find_literal_map,3),"Unify ValueList with an ordered set of values associated to all keys from KeyList.",swi_man_packages('semweb.html'),packages,149092).
+i(/(rdf_keys_in_literal_map,3),"Realises various queries on the key-set: allUnify Answer with an ordered list of all keys.",swi_man_packages('semweb.html'),packages,149632).
+i(/(rdf_statistics_literal_map,2),"Query some statistics of the map.",swi_man_packages('semweb.html'),packages,151172).
+i(section(3,'4.6','sec:rdfpersistency'),"library(semweb/rdf_persistency): Providing persistent storage",swi_man_packages('semweb.html'),packages,151658).
+i(/(rdf_attach_db,2),"Attach Directory as the persistent database.",swi_man_packages('semweb.html'),packages,152511).
+i(/(rdf_detach_db,0),"Detaches the persistent store.",swi_man_packages('semweb.html'),packages,155142).
+i(/(rdf_current_db,1),"Unify Directory with the current database directory.",swi_man_packages('semweb.html'),packages,155333).
+i(/(rdf_persistency,2),"Change presistency of named database (4th argument of rdf/4).",swi_man_packages('semweb.html'),packages,155577).
+i(/(rdf_flush_journals,1),"Flush dirty journals.",swi_man_packages('semweb.html'),packages,156246).
+i(section(4,'4.6.1','sec:enrich'),"Enriching the journals",swi_man_packages('semweb.html'),packages,157228).
+i(/(rdf_journal_file,2),"True if File is the absolute file name of an existing named graph DB.",swi_man_packages('semweb.html'),packages,159265).
+i(/(rdf_db_to_file,2),"Convert between DB (see rdf_source/1) and file base-file used for storing information on this database.",swi_man_packages('semweb.html'),packages,162319).
+i(section(2,'5','sec:turtle'),"library(semweb/turtle): Turtle: Terse RDF Triple Language",swi_man_packages('semweb.html'),packages,162896).
+i(/(rdf_read_turtle,3),"Read a stream or file into a set of triples or quadruples (if faced with TriG input) of the format rdf(Subject, Predicate, Object [, Graph]) The representation is consistent with the SWI-Prolog RDF/XML and ntriples parsers.",swi_man_packages('semweb.html'),packages,163722).
+i(/(rdf_load_turtle,3),"deprecatedUse rdf_read_turtle/3",swi_man_packages('semweb.html'),packages,166717).
+i(/(rdf_process_turtle,3),"Streaming Turtle parser.",swi_man_packages('semweb.html'),packages,167008).
+i(/(turtle_pn_local,1),"True if Atom is a valid Turtle PN_LOCAL name.",swi_man_packages('semweb.html'),packages,168432).
+i(/(turtle_write_quoted_string,2),"Same as turtle_write_quoted_string(Out, Value, false), writing a string with only a single \".",swi_man_packages('semweb.html'),packages,169145).
+i(/(turtle_write_uri,2),"Write a URI as <...>",swi_man_packages('semweb.html'),packages,169513).
+i(/('rdf_db:rdf_load_stream',3),"(Turtle clauses)",swi_man_packages('semweb.html'),packages,169729).
+i(/(rdf_save_turtle,2),"Save an RDF graph as Turtle.",swi_man_packages('semweb.html'),packages,169984).
+i(/(rdf_save_ntriples,2),"Save RDF using ntriples format.",swi_man_packages('semweb.html'),packages,174311).
+i(/(rdf_save_canonical_trig,2),"Save triples in a canonical format.",swi_man_packages('semweb.html'),packages,174621).
+i(/(rdf_save_trig,2),"Save multiple RDF graphs into a TriG file.",swi_man_packages('semweb.html'),packages,174953).
+i(/(rdf_save_canonical_turtle,2),"Save triples in a canonical format.",swi_man_packages('semweb.html'),packages,175637).
+i(section(2,'6','sec:rdfntriples'),"library(semweb/rdf_ntriples): Process files in the RDF N-Triples format",swi_man_packages('semweb.html'),packages,176494).
+i(/(read_ntriple,2),"Read the next triple from Stream as Triple.",swi_man_packages('semweb.html'),packages,177543).
+i(/(read_nquad,2),"Read the next quad from Stream as Quad.",swi_man_packages('semweb.html'),packages,178285).
+i(/(read_ntuple,2),"Read the next triple or quad from Stream as Tuple.",swi_man_packages('semweb.html'),packages,179017).
+i(/(rdf_read_ntriples,3),"True when Triples/Quads is a list of triples/quads from Input.",swi_man_packages('semweb.html'),packages,179576).
+i(/(rdf_read_nquads,3),"True when Triples/Quads is a list of triples/quads from Input.",swi_man_packages('semweb.html'),packages,179576).
+i(/(rdf_process_ntriples,3),"Call-back interface, compatible with the other triple readers.",swi_man_packages('semweb.html'),packages,181349).
+i(/('rdf_db:rdf_load_stream',3),"Plugin rule that supports loading the ntriples and nquads formats.",swi_man_packages('semweb.html'),packages,182038).
+i(/('rdf_db:rdf_file_type',2),"Bind the ntriples reader to files with the extensions nt, ntriples and nquads.",swi_man_packages('semweb.html'),packages,182378).
+i(section(2,'7','sec:rdfa'),"library(semweb/rdfa): Extract RDF from an HTML or XML DOM",swi_man_packages('semweb.html'),packages,182734).
+i(/(read_rdfa,3),"True when Triples is a list of rdf(S,P,O) triples extracted from Input.",swi_man_packages('semweb.html'),packages,183670).
+i(/(xml_rdfa,3),"True when RDF is a list of rdf(S,P,O) terms extracted from DOM according to the RDFa specification.",swi_man_packages('semweb.html'),packages,184363).
+i(/('rdf_db:rdf_load_stream',3),"Register library(semweb/rdfa) as loader for HTML RDFa files.",swi_man_packages('semweb.html'),packages,185292).
+i(section(2,'8','sec:rdfs'),"library(semweb/rdfs): RDFS related queries",swi_man_packages('semweb.html'),packages,185776).
+i(section(3,'8.1','sec:semweb-rdfs-classes'),"Hierarchy and class-individual relations",swi_man_packages('semweb.html'),packages,187140).
+i(/(rdfs_subproperty_of,2),"True if SubProperty is equal to Property or Property can be reached from SubProperty following the rdfs:subPropertyOf relation.",swi_man_packages('semweb.html'),packages,187680).
+i(/(rdfs_subclass_of,2),"True if SubClass is equal to Class or Class can be reached from SubClass following the rdfs:subClassOf relation.",swi_man_packages('semweb.html'),packages,188593).
+i(/(rdfs_class_property,2),"True if the domain of Property includes Class.",swi_man_packages('semweb.html'),packages,189090).
+i(/(rdfs_individual_of,2),"True if Resource is an indivisual of Class.",swi_man_packages('semweb.html'),packages,189367).
+i(section(3,'8.2','sec:semweb-rdfs-containers'),"Collections and Containers",swi_man_packages('semweb.html'),packages,189848).
+i(/(rdfs_member,2),"Test or generate the members of Set.",swi_man_packages('semweb.html'),packages,190303).
+i(/(rdfs_list_to_prolog_list,2),"Convert Set, which must be an individual of rdf:List into a Prolog list of objects.",swi_man_packages('semweb.html'),packages,190582).
+i(/(rdfs_assert_list,2),"Equivalent to rdfs_assert_list/3 using DB = user.",swi_man_packages('semweb.html'),packages,190847).
+i(/(rdfs_assert_list,3),"If List is a list of resources, create an RDF list Resource that reflects these resources.",swi_man_packages('semweb.html'),packages,191149).
+i(section(2,'9','sec:rdflib'),"Managing RDF input files",swi_man_packages('semweb.html'),packages,191637).
+i(section(3,'9.1','sec:semweb-rdf-manifest'),"The Manifest file",swi_man_packages('semweb.html'),packages,192617).
+i(section(4,'9.1.1','sec:semweb-void'),"Support for the VoID and VANN vocabularies",swi_man_packages('semweb.html'),packages,196879).
+i(section(4,'9.1.2','sec:semweb-find-manifest'),"Finding manifest files",swi_man_packages('semweb.html'),packages,198908).
+i(/(rdf_attach_library,1),"Load meta-data on RDF repositories from FileOrDirectory.",swi_man_packages('semweb.html'),packages,199291).
+i(/(rdf_list_library,0),"List the available resources in the library.",swi_man_packages('semweb.html'),packages,200233).
+i(/(rdf_list_library,1),"Same as rdf_list_library(Id,[]).",swi_man_packages('semweb.html'),packages,201313).
+i(/(rdf_list_library,2),"Lists the resources that will be loaded if Id is handed to rdf_load_library/2.",swi_man_packages('semweb.html'),packages,201490).
+i(/(rdf_load_library,2),"Load the given library.",swi_man_packages('semweb.html'),packages,202361).
+i(section(3,'9.2','sec:usage'),"Usage scenarios",swi_man_packages('semweb.html'),packages,202761).
+i(section(4,'9.2.1','sec:semweb-manifest-resources'),"Referencing resources",swi_man_packages('semweb.html'),packages,205710).
+i(section(3,'9.3','sec:semweb-rdflib-example'),"Putting it all together",swi_man_packages('semweb.html'),packages,208150).
+i(section(3,'9.4','sec:w3cmanifest'),"Example: A metadata file for W3C WordNet",swi_man_packages('semweb.html'),packages,209412).
+i(section(2,'10','sec:sparqlclient'),"library(semweb/sparql_client): SPARQL client library",swi_man_packages('semweb.html'),packages,213191).
+i(/(sparql_query,3),"Execute a SPARQL query on an HTTP SPARQL endpoint.",swi_man_packages('semweb.html'),packages,214257).
+i(/(sparql_set_server,1),"Set sparql server default options.",swi_man_packages('semweb.html'),packages,216823).
+i(/(sparql_read_xml_result,2),"Specs from http://www.w3.org/TR/rdf-sparql-XMLres/.",swi_man_packages('semweb.html'),packages,217295).
+i(/(sparql_read_json_result,2),"The returned Result term is of the format: select(VarNames, Rows)Where VarNames is a term v(Name, ...) and Rows is a list of row(....) containing the column values in the same order as the variable names.",swi_man_packages('semweb.html'),packages,218076).
+i(section(2,'11','sec:rdfcompare'),"library(semweb/rdf_compare): Compare RDF graphs",swi_man_packages('semweb.html'),packages,218960).
+i(/(rdf_equal_graphs,3),"True if GraphA and GraphB are the same under Substition.",swi_man_packages('semweb.html'),packages,219535).
+i(section(2,'12','sec:rdfportray'),"library(semweb/rdf_portray): Portray RDF resources",swi_man_packages('semweb.html'),packages,220533).
+i(/(rdf_portray_as,1),"Set the style used to portray resources.",swi_man_packages('semweb.html'),packages,221607).
+i(/(rdf_portray_lang,1),"If Lang is a list, set the list or preferred languages.",swi_man_packages('semweb.html'),packages,222534).
+i(section(2,'13','sec:semweb-related-packages'),"Related packages",swi_man_packages('semweb.html'),packages,222856).
+i(section(2,'14','sec:semweb-version3'),"Version 3 release notes",swi_man_packages('semweb.html'),packages,223852).
+i(section(0,'0','packages/sgml.html'),"SWI-Prolog SGML/XML parser",swi_man_packages('sgml.html'),packages,2778).
+i(section(2,'1','sec:sgml-intro'),"Introduction",swi_man_packages('sgml.html'),packages,7329).
+i(section(2,'2','sec:sgml-bluffers-guide'),"Bluffer's Guide",swi_man_packages('sgml.html'),packages,8572).
+i(section(3,'2.1','sec:sgml-goodies'),"‘Goodies' Predicates",swi_man_packages('sgml.html'),packages,11253).
+i(/(load_sgml,3),"Calls load_structure/3 with the given Options, using the default option dialect(sgml)",swi_man_packages('sgml.html'),packages,11706).
+i(/(load_xml,3),"Calls load_structure/3 with the given Options, using the default option dialect(xml)",swi_man_packages('sgml.html'),packages,12043).
+i(/(load_html,3),"Calls load_structure/3 with the given Options, using the default options dialect(HTMLDialect), where HTMLDialect is html4 or html5 (default), depending on the Prolog flag html_dialect.",swi_man_packages('sgml.html'),packages,12377).
+i(section(2,'3','sec:sgml-predicates'),"Predicate Reference",swi_man_packages('sgml.html'),packages,13127).
+i(section(3,'3.1','sec:sgml-load-structure'),"Loading Structured Documents",swi_man_packages('sgml.html'),packages,13299).
+i(/(load_structure,3),"Parse Source and return the resulting structure in ListOfContent.",swi_man_packages('sgml.html'),packages,14016).
+i(section(3,'3.2','sec:xml-whitespace'),"Handling white-space",swi_man_packages('sgml.html'),packages,22799).
+i(section(3,'3.3','sec:xml'),"XML documents",swi_man_packages('sgml.html'),packages,25533).
+i(section(4,'3.3.1','sec:xmlns'),"XML Namespaces",swi_man_packages('sgml.html'),packages,27344).
+i(/(iri_xml_namespace,3),"Split an IRI (Unicode URI) into its Namespace (an IRI) and Localname (a Unicode XML name, see xml_name/2).",swi_man_packages('sgml.html'),packages,29824).
+i(/(iri_xml_namespace,2),"Same as iri_xml_namespace/3, but avoids creating an atom for the Localname.",swi_man_packages('sgml.html'),packages,31370).
+i(section(3,'3.4','sec:sgml-dtd'),"DTD-Handling",swi_man_packages('sgml.html'),packages,31735).
+i(/(new_dtd,2),"Creates an empty DTD for the named DocType.",swi_man_packages('sgml.html'),packages,32215).
+i(/(free_dtd,1),"Deallocate all resources associated to the DTD.",swi_man_packages('sgml.html'),packages,32500).
+i(/(load_dtd,2),"Define the DTD by loading the SGML-DTD file File.",swi_man_packages('sgml.html'),packages,32707).
+i(/(load_dtd,3),"Define the DTD by loading File.",swi_man_packages('sgml.html'),packages,33003).
+i(/(open_dtd,3),"Open a DTD as an output stream.",swi_man_packages('sgml.html'),packages,33530).
+i(/(dtd,2),"Find the DTD representing the indicated doctype.",swi_man_packages('sgml.html'),packages,34064).
+i(/(dtd_property,2),"This predicate is used to examine the content of a DTD.",swi_man_packages('sgml.html'),packages,35642).
+i(section(4,'3.4.1','sec:sgml-doctype'),"The DOCTYPE declaration",swi_man_packages('sgml.html'),packages,40478).
+i(section(3,'3.5','sec:implicitdtd'),"Extracting a DTD",swi_man_packages('sgml.html'),packages,41055).
+i(section(3,'3.6','sec:sgml-primitives'),"Parsing Primitives",swi_man_packages('sgml.html'),packages,42204).
+i(/(new_sgml_parser,2),"Creates a new parser.",swi_man_packages('sgml.html'),packages,42395).
+i(/(free_sgml_parser,1),"Destroy all resources related to the parser.",swi_man_packages('sgml.html'),packages,43211).
+i(/(set_sgml_parser,2),"Sets attributes to the parser.",swi_man_packages('sgml.html'),packages,43488).
+i(/(get_sgml_parser,2),"Retrieve infomation on the current status of the parser.",swi_man_packages('sgml.html'),packages,48684).
+i(/(sgml_parse,2),"Parse an XML file.",swi_man_packages('sgml.html'),packages,53503).
+i(section(4,'3.6.1','sec:sgml-partial-documents'),"Partial Parsing",swi_man_packages('sgml.html'),packages,61270).
+i(section(3,'3.7','sec:sgml-type'),"Type checking",swi_man_packages('sgml.html'),packages,63173).
+i(/(xml_is_dom,1),"True if Term is an SGML/XML term as produced by one of the above predicates and acceptable by xml_write/3 and friends.",swi_man_packages('sgml.html'),packages,63347).
+i(section(2,'4','sec:sgml-encoding'),"Stream encoding issues",swi_man_packages('sgml.html'),packages,63680).
+i(section(2,'5','sec:xpath'),"library(xpath): Select nodes in an XML DOM",swi_man_packages('sgml.html'),packages,64586).
+i(/(xpath_chk,3),"Semi-deterministic version of xpath/3.",swi_man_packages('sgml.html'),packages,65499).
+i(/(xpath,3),"Match an element in a DOM structure.",swi_man_packages('sgml.html'),packages,65749).
+i(section(2,'6','sec:indexaccess'),"Processing Indexed Files",swi_man_packages('sgml.html'),packages,73153).
+i(section(2,'7','sec:sgml-external-entities'),"External entities",swi_man_packages('sgml.html'),packages,75579).
+i(/(sgml_register_catalog_file,2),"Register the indicated File as a catalog file.",swi_man_packages('sgml.html'),packages,76621).
+i(section(2,'8','sec:pwp'),"library(pwp): Prolog Well-formed Pages",swi_man_packages('sgml.html'),packages,78246).
+i(/(pwp_files,2),"loads an Xml document from the file named In, transforms it using the PWP attributes, and writes the transformed version to the new file named Out.",swi_man_packages('sgml.html'),packages,90514).
+i(/(pwp_stream,3),"Loads an Xml document from the given Input stream, transforms it using the PWP attributes, and writes the transformed version to the given Output stream.",swi_man_packages('sgml.html'),packages,90855).
+i(/(pwp_xml,3),"maps down a list of XML items, acting specially on elements and copying everything else unchanged, including white space.",swi_man_packages('sgml.html'),packages,91329).
+i(section(2,'9','sec:sgml-write-markup'),"Writing markup",swi_man_packages('sgml.html'),packages,91693).
+i(section(3,'9.1','sec:sgml-write'),"Writing documents",swi_man_packages('sgml.html'),packages,91864).
+i(/(xml_write,3),"Write the XML header with encoding information and the content of the document as represented by Term to Stream.",swi_man_packages('sgml.html'),packages,92674).
+i(/(sgml_write,3),"Write the SGML DOCTYPE header and the content of the document as represented by Term to Stream.",swi_man_packages('sgml.html'),packages,95957).
+i(/(html_write,3),"Same as sgml_write/3, but passes the HTML DTD as obtained from dtd/2.",swi_man_packages('sgml.html'),packages,96355).
+i(section(3,'9.2','sec:xml-escaping'),"XML Quote primitives",swi_man_packages('sgml.html'),packages,96832).
+i(/(xml_quote_attribute,3),"Map the characters that may not appear in XML attributes to entities.",swi_man_packages('sgml.html'),packages,98012).
+i(/(xml_quote_attribute,2),"Backward compatibility version for xml_quote_attribute/3.",swi_man_packages('sgml.html'),packages,98516).
+i(/(xml_quote_cdata,3),"Very similar to xml_quote_attribute/3, but does not quote the single- and double-quotes.",swi_man_packages('sgml.html'),packages,98847).
+i(/(xml_quote_cdata,2),"Backward compatibility version for xml_quote_cdata/3.",swi_man_packages('sgml.html'),packages,99175).
+i(/(xml_name,2),"Succeed if In is an atom or string that satisfies the rules for a valid XML element or attribute name.",swi_man_packages('sgml.html'),packages,99486).
+i(/(xml_name,1),"Backward compatibility version for xml_name/2.",swi_man_packages('sgml.html'),packages,100008).
+i(section(3,'9.3','sec:xsd-lexical-form'),"XSD lexical forms",swi_man_packages('sgml.html'),packages,100286).
+i(/(xsd_number_string,2),"This predicate is similar to number_string/2, but accepts floating point numbers according to the XML syntax rather than the Prolog syntax.",swi_man_packages('sgml.html'),packages,100703).
+i(/(xsd_time_string,3),"Serialize and deserialize the XSD date and time formats.",swi_man_packages('sgml.html'),packages,101712).
+i(section(3,'9.4','sec:c14n2'),"library(c14n2): C14n2 canonical XML documents",swi_man_packages('sgml.html'),packages,104548).
+i(/(xml_write_canonical,3),"Write an XML DOM using the canonical conventions as defined by C14n2.",swi_man_packages('sgml.html'),packages,105065).
+i(section(2,'10','sec:sgml-unsupported'),"Unsupported SGML features",swi_man_packages('sgml.html'),packages,105652).
+i(section(2,'11','sec:sgml-acknowledgements'),"Acknowledgements",swi_man_packages('sgml.html'),packages,108135).
+i(section(0,'0','packages/table.html'),"Managing external tables for SWI-Prolog",swi_man_packages('table.html'),packages,2790).
+i(section(2,'1','sec:table-intro'),"Introduction",swi_man_packages('table.html'),packages,5785).
+i(section(2,'2','sec:table-external'),"Managing external tables",swi_man_packages('table.html'),packages,6831).
+i(section(3,'2.1','sec:table-create-destroy'),"Creating and destroying tables",swi_man_packages('table.html'),packages,7006).
+i(/(new_table,4),"Create a description of a new table, stored in File.",swi_man_packages('table.html'),packages,7339).
+i(/(open_table,1),"Open the table.",swi_man_packages('table.html'),packages,13239).
+i(/(close_table,1),"Close the file and other system resources, but do not remove the description of the table, so it can be re-opened later.",swi_man_packages('table.html'),packages,13713).
+i(/(free_table,1),"Close and remove the handle.",swi_man_packages('table.html'),packages,13960).
+i(section(3,'2.2','sec:table-access'),"Accessing a table",swi_man_packages('table.html'),packages,14241).
+i(section(4,'2.2.1','sec:table-find-record-location'),"Finding record locations in a table",swi_man_packages('table.html'),packages,14478).
+i(/(get_table_attribute,3),"Fetch attributes of the table.",swi_man_packages('table.html'),packages,14910).
+i(/(table_window,3),"If only part of the file represents the table, this call may be used to define a window on the file.",swi_man_packages('table.html'),packages,16205).
+i(/(table_start_of_record,4),"Enumerates (on backtracking) the start of records in the table in the region [From, To).",swi_man_packages('table.html'),packages,16646).
+i(/(table_previous_record,3),"If Here is the start of a record, find the start of the record before it.",swi_man_packages('table.html'),packages,17065).
+i(section(4,'2.2.2','sec:table-read-record'),"Reading records",swi_man_packages('table.html'),packages,17434).
+i(/(read_table_record,4),"Read a record from the table.",swi_man_packages('table.html'),packages,17962).
+i(/(read_table_fields,4),"As read_table_record/4, but Fields is a list of terms +Name(-Value), and the Values will be unified with the values of the specified field.",swi_man_packages('table.html'),packages,18823).
+i(/(read_table_record_data,4),"Similar to read_table_record/4, but unifies record with a Prolog string containing the data of the record unparsed.",swi_man_packages('table.html'),packages,19254).
+i(section(4,'2.2.3','sec:table-search'),"Searching the table",swi_man_packages('table.html'),packages,19722).
+i(/(in_table,3),"Searches the table for records matching Fields.",swi_man_packages('table.html'),packages,19912).
+i(section(4,'2.2.4','sec:table-misc'),"Miscellaneous",swi_man_packages('table.html'),packages,23932).
+i(/(table_version,2),"Unify Version with an atom identifying the version of this package, and CompileDate with the date this package was compiled.",swi_man_packages('table.html'),packages,24111).
+i(section(2,'3','sec:table-ordering'),"Flexible ordering and equivalence based on character table",swi_man_packages('table.html'),packages,24416).
+i(/(new_order_table,2),"Create a new, or replace the order-table with the given name (an atom).",swi_man_packages('table.html'),packages,26341).
+i(/(order_table_mapping,3),"Read the current mapping.",swi_man_packages('table.html'),packages,27573).
+i(/(compare_strings,4),"Compare two strings using the named Table.",swi_man_packages('table.html'),packages,27869).
+i(/(prefix_string,3),"Succeeds if Prefix is a prefix of String using the named Table.",swi_man_packages('table.html'),packages,28240).
+i(/(prefix_string,4),"Succeeds if Prefix is a prefix of String using the named Table, and Rest is unified with the remainder of String that is not matched.",swi_man_packages('table.html'),packages,28486).
+i(/(sub_string,3),"Succeeds if Sub is a substring of String using the named Table.",swi_man_packages('table.html'),packages,29056).
+i(section(2,'4','sec:example'),"Example: accessing the Unix passwd file",swi_man_packages('table.html'),packages,29302).
+i(section(0,'0','packages/utf8proc.html'),"SWI-Prolog Unicode library",swi_man_packages('utf8proc.html'),packages,2778).
+i(section(2,'1','sec:unicode'),"library(unicode): Unicode string handling",swi_man_packages('utf8proc.html'),packages,3722).
+i(/(unicode_map,3),"Perform unicode normalization operations.",swi_man_packages('utf8proc.html'),packages,6088).
+i(/(unicode_nfd,2),"Characters are decomposed by canonical equivalence.",swi_man_packages('utf8proc.html'),packages,8748).
+i(/(unicode_nfc,2),"Characters are decomposed and then recomposed by canonical equivalence.",swi_man_packages('utf8proc.html'),packages,8963).
+i(/(unicode_nfkd,2),"Characters are decomposed by compatibility equivalence.",swi_man_packages('utf8proc.html'),packages,9508).
+i(/(unicode_nfkc,2),"Characters are decomposed by compatibility equivalence, then recomposed by canonical equivalence.",swi_man_packages('utf8proc.html'),packages,9729).
+i(/(unicode_property,2),"True if Property is defined for Char.",swi_man_packages('utf8proc.html'),packages,9993).
+i(section(2,'2','sec:utf8proc-license'),"License",swi_man_packages('utf8proc.html'),packages,11766).
+i(section(0,'0','packages/zlib.html'),"SWI-Prolog binding to zlib",swi_man_packages('zlib.html'),packages,2778).
+i(section(2,'1','sec:zlib'),"Zlib and compression",swi_man_packages('zlib.html'),packages,3948).
+i(section(2,'2','sec:zlib-predicates'),"Predicate reference",swi_man_packages('zlib.html'),packages,6333).
+i(/(zopen,3),"Creates ZStream, providing compressed access to Stream.",swi_man_packages('zlib.html'),packages,6521).
+i(/(gzopen,3),"Same as gzopen(File, Mode, Stream,[]).",swi_man_packages('zlib.html'),packages,8986).
+i(/(gzopen,4),"Open gzip compatible File for reading or writing.",swi_man_packages('zlib.html'),packages,9168).
+i(section(2,'3','sec:zlib-streams'),"Interaction with Prolog stream predicates",swi_man_packages('zlib.html'),packages,9828).
+i(section(0,'0','packages/cql.html'),"Constraint Query Language A high level interface to SQL databases",swi_man_packages('cql.html'),packages,2817).
+i(section(2,'1','sec:cql'),"library(cql/cql): CQL - Constraint Query Language",swi_man_packages('cql.html'),packages,13967).
+i(section(3,'1.1','sec:cql-warnings'),"Warnings from CQL",swi_man_packages('cql.html'),packages,14576).
+i(section(4,'1.1.1','sec:cql-compare-null'),"CQL Comparisons with NULL",swi_man_packages('cql.html'),packages,14747).
+i(section(4,'1.1.2','sec:cql-and-setof'),"Avoid setof/3 and bagof/3 in CQL queries",swi_man_packages('cql.html'),packages,15516).
+i(section(3,'1.2','sec:cql-null-outer-jpin'),"CQL: Retrieved nulls have special logic to handle outer joins",swi_man_packages('cql.html'),packages,16357).
+i(section(3,'1.3','sec:cql-quickstart'),"CQL: Getting Started Quickly",swi_man_packages('cql.html'),packages,17347).
+i(section(3,'1.4','sec:cql-debugging'),"Debugging CQL queries",swi_man_packages('cql.html'),packages,18587).
+i(section(3,'1.5','sec:cql-prolog-vars'),"Prolog Variables in CQL queries",swi_man_packages('cql.html'),packages,20414).
+i(section(3,'1.6','sec:cql-special-attrs'),"CQL Special Attributes",swi_man_packages('cql.html'),packages,21810).
+i(section(3,'1.7','sec:cql-examples'),"CQL Examples",swi_man_packages('cql.html'),packages,22876).
+i(section(4,'1.7.1','sec:cql-insert'),"CQL Simple INSERT",swi_man_packages('cql.html'),packages,23156).
+i(section(4,'1.7.2','sec:cql-insert2'),"CQL Simple INSERT with retrieval of identity of the inserted",swi_man_packages('cql.html'),packages,23400).
+i(section(4,'1.7.3','sec:cql-delete'),"CQL Simple DELETE",swi_man_packages('cql.html'),packages,23703).
+i(section(4,'1.7.4','sec:cql-select'),"CQL Simple SELECT",swi_man_packages('cql.html'),packages,24451).
+i(section(4,'1.7.5','sec:cql-update'),"CQL Simple UPDATE",swi_man_packages('cql.html'),packages,25293).
+i(section(4,'1.7.6','sec:cql-where-arith'),"CQL WHERE with arithmetic comparison",swi_man_packages('cql.html'),packages,25804).
+i(section(4,'1.7.7','sec:cql-inner-join'),"CQL Simple INNER JOIN",swi_man_packages('cql.html'),packages,26072).
+i(section(4,'1.7.8','sec:cql-update-join-where'),"CQL Arithmetic UPDATE with an INNER JOIN and a WHERE restriction",swi_man_packages('cql.html'),packages,26557).
+i(section(4,'1.7.9','sec:cql-not-exists'),"CQL: Confirm row does not exist",swi_man_packages('cql.html'),packages,27197).
+i(section(4,'1.7.10','sec:cql-count'),"CQL: Aggregation - Count",swi_man_packages('cql.html'),packages,27452).
+i(section(4,'1.7.11','sec:cql-sum'),"CQL: Aggregation - Sum",swi_man_packages('cql.html'),packages,27734).
+i(section(4,'1.7.12','sec:cql-avg'),"CQL: Aggregation - Average",swi_man_packages('cql.html'),packages,28013).
+i(section(4,'1.7.13','sec:cql-max'),"CQL: Maximum Value",swi_man_packages('cql.html'),packages,28314).
+i(section(4,'1.7.14','sec:cql-min'),"CQL: Minimum Value",swi_man_packages('cql.html'),packages,28610).
+i(section(4,'1.7.15','sec:cql-group-by'),"CQL: Aggregation requiring GROUP BY",swi_man_packages('cql.html'),packages,28906).
+i(section(4,'1.7.16','sec:cql-agg-subquery'),"CQL: INNER JOIN with an aggregation sub-query where the sub-query is constrained by a shared variable from the main query",swi_man_packages('cql.html'),packages,29304).
+i(section(4,'1.7.17','sec:cql-join-subquery'),"CQL: INNER JOIN in an aggregation sub-query",swi_man_packages('cql.html'),packages,30002).
+i(section(4,'1.7.18','sec:cql-negation'),"CQL: Negation",swi_man_packages('cql.html'),packages,30361).
+i(section(4,'1.7.19','sec:cql-exists'),"CQL: EXISTS",swi_man_packages('cql.html'),packages,30780).
+i(section(4,'1.7.20','sec:cql-left-outer-join'),"CQL: Left Outer Join",swi_man_packages('cql.html'),packages,31373).
+i(section(4,'1.7.21','sec:cql-list-restrictions'),"CQL: List-based Restrictions",swi_man_packages('cql.html'),packages,31647).
+i(section(4,'1.7.22','sec:cql-list-compilation'),"CQL: Compile time in-list constraint",swi_man_packages('cql.html'),packages,32501).
+i(section(4,'1.7.23','sec:cql-disjunction'),"CQL: Disjunction resulting in OR in WHERE clause",swi_man_packages('cql.html'),packages,33657).
+i(section(4,'1.7.24','sec:cql-disj-diff-joins'),"CQL: Disjunction resulting in different joins (implemented as a SQL UNION)",swi_man_packages('cql.html'),packages,34107).
+i(section(4,'1.7.25','sec:cql-disj-attrs'),"CQL: Disjunction resulting in different SELECT attributes (implemented as separate ODBC queries)",swi_man_packages('cql.html'),packages,34695).
+i(section(4,'1.7.26','sec:cql-order-by'),"CQL: ORDER BY",swi_man_packages('cql.html'),packages,35182).
+i(section(4,'1.7.27','sec:cql-distinct'),"CQL: DISTINCT",swi_man_packages('cql.html'),packages,35546).
+i(section(4,'1.7.28','sec:cql-select-not-null'),"CQL: SELECT with NOT NULL restriction",swi_man_packages('cql.html'),packages,36192).
+i(section(4,'1.7.29','sec:cql-top'),"CQL: First N",swi_man_packages('cql.html'),packages,36474).
+i(section(4,'1.7.30','sec:cql-self-join'),"CQL: Self JOIN",swi_man_packages('cql.html'),packages,36813).
+i(section(4,'1.7.31','sec:cql-no-null-compare'),"CQL: Removing null comparisions",swi_man_packages('cql.html'),packages,37088).
+i(section(4,'1.7.32','sec:cql-three-table-join'),"CQL: Three table JOIN",swi_man_packages('cql.html'),packages,38475).
+i(section(4,'1.7.33','sec:cql-three-nolock'),"CQL: Three table JOIN with NOLOCK locking hint",swi_man_packages('cql.html'),packages,38951).
+i(section(4,'1.7.34','sec:cql-like'),"CQL: SELECT with LIKE",swi_man_packages('cql.html'),packages,39362).
+i(section(4,'1.7.35','sec:cql-write'),"CQL: Writing exceptions directly to the database",swi_man_packages('cql.html'),packages,39694).
+i(section(4,'1.7.36','sec:cql-top-n-parametric'),"CQL: TOP N is Parametric",swi_man_packages('cql.html'),packages,40448).
+i(section(4,'1.7.37','sec:cql-compile-time-goal'),"CQL: Using compile_time_goal/1",swi_man_packages('cql.html'),packages,40951).
+i(section(4,'1.7.38','sec:cql-on'),"CQL: ON",swi_man_packages('cql.html'),packages,42008).
+i(section(4,'1.7.39','sec:cql-expr-in-where'),"CQL: Expressions In Where Restrictions",swi_man_packages('cql.html'),packages,42898).
+i(section(4,'1.7.40','sec:cql-no-where'),"CQL: Explicitly avoid the \"No WHERE restriction\" message",swi_man_packages('cql.html'),packages,43261).
+i(section(4,'1.7.41','sec:cql-having'),"CQL: HAVING",swi_man_packages('cql.html'),packages,44017).
+i(section(4,'1.7.42','sec:cql-inst-update-value'),"CQL: INSERT and UPDATE value in-line formatting",swi_man_packages('cql.html'),packages,44827).
+i(section(4,'1.7.43','sec:cql-neg-where'),"CQL: Negations in WHERE Clauses",swi_man_packages('cql.html'),packages,45374).
+i(section(4,'1.7.44','sec:cql-gen-att-values'),"CQL: Predicate-generated Attribute Values",swi_man_packages('cql.html'),packages,45860).
+i(section(4,'1.7.45','sec:cql-insert-from-select'),"CQL: INSERT from SELECT",swi_man_packages('cql.html'),packages,47369).
+i(section(3,'1.8','sec:cql-hooks'),"CQL: Hooks",swi_man_packages('cql.html'),packages,48215).
+i(section(4,'1.8.1','sec:cql-code-hooks'),"CQL: Generated Code Hooks",swi_man_packages('cql.html'),packages,48478).
+i(section(4,'1.8.2','sec:cql-represent-hooks'),"CQL: Data Representation Hooks",swi_man_packages('cql.html'),packages,49271).
+i(section(4,'1.8.3','sec:cql-appl-hooks'),"CQL: Application Integration",swi_man_packages('cql.html'),packages,50135).
+i(section(4,'1.8.4','sec:cql-inline-hooks'),"CQL: Inline values",swi_man_packages('cql.html'),packages,52725).
+i(section(4,'1.8.5','sec:cql-shema-hook'),"CQL: Schema",swi_man_packages('cql.html'),packages,53290).
+i(section(4,'1.8.6','sec:cql-events-and-history'),"CQL: Event Processing and History",swi_man_packages('cql.html'),packages,55107).
+i(section(4,'1.8.7','sec:cql-statistics-hooks'),"CQL: Statistical Hooks",swi_man_packages('cql.html'),packages,56275).
+i(/(cql_set_module_default_schema,1),"Set the Schema for a module",swi_man_packages('cql.html'),packages,58897).
+i(/(cql_get_module_default_schema,2),"",swi_man_packages('cql.html'),packages,59097).
+i(/(cql_goal_expansion,3),"Expand at compile time if the first term is a list of unbound input variables Expand at runtime if the first term is compile_at_runtime",swi_man_packages('cql.html'),packages,59282).
+i(/(cql_runtime,7),"",swi_man_packages('cql.html'),packages,59585).
+i(/(cql_temporary_column_name,4),"",swi_man_packages('cql.html'),packages,59789).
+i(/(cql_show,2),"Called when ?/1, ??/1, and ???/1 applied to CQL Goal goal term Mode minimal ; explicit ; full",swi_man_packages('cql.html'),packages,59975).
+i(/(statistic_monitored_attribute,3),"",swi_man_packages('cql.html'),packages,60397).
+i(/(dbms,2),"Determine the DBMS for a given Schema.",swi_man_packages('cql.html'),packages,60585).
+i(/(odbc_data_type,4),"OdbcDataType must be a native SQL datatype, such as varchar(30) or decimal(10, 5) Can be autoconfigured.",swi_man_packages('cql.html'),packages,60824).
+i(/(primary_key_column_name,3),"Can be autoconfigured.",swi_man_packages('cql.html'),packages,61182).
+i(/(routine_return_type,3),"Can be autoconfigured",swi_man_packages('cql.html'),packages,61436).
+i(/(database_constraint,4),"Constraint is one of: primary_key(ColumnNames:list)foreign_key(ForeignTableName:atom, ForeignColumnNames:list, ColumnNames:list)unique(ColumnNames:list)check(CheckClause) In theory this can be autoconfigured too, but I have not written the code for it yet",swi_man_packages('cql.html'),packages,61677).
+i(/(attribute_domain,4),"",swi_man_packages('cql.html'),packages,62302).
+i(/(database_identity,3),"",swi_man_packages('cql.html'),packages,62473).
+i(/(database_key,5),"KeyColumnNames list of atom in database-supplied order KeyType identity ; ’primary key' ; unique",swi_man_packages('cql.html'),packages,62653).
+i(/(cql_event_notification_table,2),"",swi_man_packages('cql.html'),packages,63103).
+i(/(cql_history_attribute,3),"",swi_man_packages('cql.html'),packages,63319).
+i(/(sql_gripe_hook,3),"Called when something dubious is found by the SQL parser.",swi_man_packages('cql.html'),packages,63534).
+i(/(cql_normalize_name,3),"Normalize a name which is potentially longer than the DBMS allows to a unique truncation",swi_man_packages('cql.html'),packages,63782).
+i(/(register_database_connection_details,2),"This should be called once to register the database connection details.",swi_man_packages('cql.html'),packages,64045).
+i(section(0,'0','packages/pcre.html'),"SWI-Prolog Regular Expression library",swi_man_packages('pcre.html'),packages,2789).
+i(section(2,'1','sec:pcre-motivation'),"Motivation",swi_man_packages('pcre.html'),packages,3610).
+i(section(2,'2','sec:pcre'),"library(pcre): Perl compatible regular expression matching for SWI-Prolog",swi_man_packages('pcre.html'),packages,5231).
+i(/(re_match,2),"Succeeds if String matches Regex.",swi_man_packages('pcre.html'),packages,6293).
+i(/(re_match,3),"Succeeds if String matches Regex.",swi_man_packages('pcre.html'),packages,6293).
+i(/(re_matchsub,4),"Match String against Regex.",swi_man_packages('pcre.html'),packages,8961).
+i(/(re_foldl,6),"Fold all matches of Regex on String.",swi_man_packages('pcre.html'),packages,10552).
+i(/(re_split,3),"Split String using the regular expression Pattern.",swi_man_packages('pcre.html'),packages,11667).
+i(/(re_split,4),"Split String using the regular expression Pattern.",swi_man_packages('pcre.html'),packages,11667).
+i(/(re_replace,4),"Replace matches of the regular expression Pattern in String with With.",swi_man_packages('pcre.html'),packages,13115).
+i(/(re_compile,3),"Compiles Pattern to a Regex blob of type regex (see blob/2).",swi_man_packages('pcre.html'),packages,13936).
+i(/(re_flush,0),"Clean pattern and replacement caches.",swi_man_packages('pcre.html'),packages,18374).
+i(/(re_config,1),"Extract configuration information from the pcre library.",swi_man_packages('pcre.html'),packages,18633).
+i(section(0,'0','packages/ssl.html'),"SWI-Prolog SSL Interface",swi_man_packages('ssl.html'),packages,2776).
+i(section(2,'1','sec:ssl-intro'),"Introduction",swi_man_packages('ssl.html'),packages,9022).
+i(section(2,'2','sec:ssl'),"library(ssl): Secure Socket Layer (SSL) library",swi_man_packages('ssl.html'),packages,11054).
+i(/(ssl_context,3),"Create an SSL context.",swi_man_packages('ssl.html'),packages,12923).
+i(/(ssl_upgrade_legacy_options,2),"Handle deprecated cacert_file(Spec) option and map it to the new cacerts(+List) option.",swi_man_packages('ssl.html'),packages,24994).
+i(/(ssl_add_certificate_key,4),"Add an additional certificate/key pair to SSL0, yielding SSL.",swi_man_packages('ssl.html'),packages,25313).
+i(/(ssl_set_options,3),"SSL is the same as SSL0, except for the options specified in Options.",swi_man_packages('ssl.html'),packages,26243).
+i(/(ssl_property,2),"True when Property is a property of SSL.",swi_man_packages('ssl.html'),packages,27362).
+i(/(ssl_negotiate,5),"Once a connection is established and a read/write stream pair is available, (PlainRead and PlainWrite), this predicate can be called to negotiate an SSL session over the streams.",swi_man_packages('ssl.html'),packages,27895).
+i(/(ssl_peer_certificate,2),"True if the peer certificate is provided (this is always the case for a client connection) and Certificate unifies with the peer certificate.",swi_man_packages('ssl.html'),packages,29297).
+i(/(ssl_peer_certificate_chain,2),"Certificates is the certificate chain provided by the peer, represented as a list of certificates.",swi_man_packages('ssl.html'),packages,29943).
+i(/(ssl_session,2),"Retrieves (debugging) properties from the SSL context associated with Stream.",swi_man_packages('ssl.html'),packages,30260).
+i(/(load_certificate,2),"Loads a certificate from a PEM- or DER-encoded stream, returning a certificate.",swi_man_packages('ssl.html'),packages,32193).
+i(/(write_certificate,3),"Writes a certificate to the stream Stream.",swi_man_packages('ssl.html'),packages,32998).
+i(/(load_crl,2),"Loads a CRL from a PEM- or DER-encoded stream, returning a term containing terms hash/1, signature/1, issuer_name/1 and revocations/1, which is a list of revoked/2 terms.",swi_man_packages('ssl.html'),packages,33297).
+i(/(system_root_certificates,1),"List is a list of trusted root certificates as provided by the OS.",swi_man_packages('ssl.html'),packages,33906).
+i(/(load_private_key,3),"Load a private key PrivateKey from the given stream Stream, using Password to decrypt the key if it is encrypted.",swi_man_packages('ssl.html'),packages,35184).
+i(/(load_public_key,2),"Load a public key PublicKey from the given stream Stream.",swi_man_packages('ssl.html'),packages,36058).
+i(/(cert_accept_any,5),"Implementation for the hook‘cert_verify_hook(:Hook)` that accepts any certificate.",swi_man_packages('ssl.html'),packages,36767).
+i(/(same_certificate,2),"True if CertificateA is logically the same as CertificateB, even if they are stored in different blobs",swi_man_packages('ssl.html'),packages,37346).
+i(/(verify_certificate_issuer,2),"True if Certificate is a certificate which was issued by the certificate Issuer.",swi_man_packages('ssl.html'),packages,37629).
+i(/(verify_certificate,3),"True if it is possible to build a chain of trust from Certificate to one of the certificates in TrustedCertificates, optionally using the (untrusted) certificates in AuxiliaryCertificates to complete the chain.",swi_man_packages('ssl.html'),packages,37901).
+i(/(certificate_field,2),"Retrieve the field matching Field from Certificate.",swi_man_packages('ssl.html'),packages,38480).
+i(/(ssl_secure_ciphers,1),"Ciphers is a secure cipher preference list that can be used in the cipher_list/1 option of ssl_context/3.",swi_man_packages('ssl.html'),packages,39843).
+i(section(2,'3','sec:crypto'),"library(crypto): Cryptography and authentication library",swi_man_packages('ssl.html'),packages,41064).
+i(section(3,'3.1','sec:crypto-introduction'),"Introduction",swi_man_packages('ssl.html'),packages,41463).
+i(section(3,'3.2','sec:crypto-secure-defaults'),"Design principle: Secure default algorithms",swi_man_packages('ssl.html'),packages,41818).
+i(section(3,'3.3','sec:crypto-binary-data'),"Representing binary data",swi_man_packages('ssl.html'),packages,43905).
+i(/(hex_bytes,2),"Relation between a hexadecimal sequence and a list of bytes.",swi_man_packages('ssl.html'),packages,44332).
+i(section(3,'3.4','sec:crypto-random'),"Cryptographically secure random numbers",swi_man_packages('ssl.html'),packages,45396).
+i(/(crypto_n_random_bytes,2),"Bytes is unified with a list of N cryptographically secure pseudo-random bytes.",swi_man_packages('ssl.html'),packages,45881).
+i(section(3,'3.5','sec:crypto-hash'),"Hashes",swi_man_packages('ssl.html'),packages,47373).
+i(section(4,'3.5.1','sec:crypto-hash-basic'),"Hashes of data and files",swi_man_packages('ssl.html'),packages,48480).
+i(/(crypto_data_hash,3),"Hash is the hash of Data.",swi_man_packages('ssl.html'),packages,48745).
+i(/(crypto_file_hash,3),"True if Hash is the hash of the content of File.",swi_man_packages('ssl.html'),packages,51155).
+i(section(4,'3.5.2','sec:crypto-hash-password'),"Hashes of passwords",swi_man_packages('ssl.html'),packages,51519).
+i(/(crypto_password_hash,2),"If Hash is instantiated, the predicate succeeds iff the hash matches the given password.",swi_man_packages('ssl.html'),packages,51849).
+i(/(crypto_password_hash,3),"Derive Hash based on Password.",swi_man_packages('ssl.html'),packages,52304).
+i(section(4,'3.5.3','sec:crypto-hkdf'),"HMAC-based key derivation function (HKDF)",swi_man_packages('ssl.html'),packages,55501).
+i(/(crypto_data_hkdf,4),"Concentrate possibly dispersed entropy of Data and then expand it to the desired length.",swi_man_packages('ssl.html'),packages,56161).
+i(section(4,'3.5.4','sec:crypto-hash-incremental'),"Hashing incrementally",swi_man_packages('ssl.html'),packages,58157).
+i(/(crypto_context_new,2),"Context is unified with the empty context, taking into account Options.",swi_man_packages('ssl.html'),packages,58843).
+i(/(crypto_data_context,3),"Context0 is an existing computation context, and Context is the new context after hashing Data in addition to the previously hashed data.",swi_man_packages('ssl.html'),packages,59471).
+i(/(crypto_context_hash,2),"Obtain the hash code of Context.",swi_man_packages('ssl.html'),packages,60250).
+i(/(crypto_open_hash_stream,3),"Open a filter stream on OrgStream that maintains a hash.",swi_man_packages('ssl.html'),packages,60679).
+i(/(crypto_stream_hash,2),"Unify Hash with a hash for the bytes sent to or read from HashStream.",swi_man_packages('ssl.html'),packages,61413).
+i(section(3,'3.6','sec:crypto-signatures'),"Digital signatures",swi_man_packages('ssl.html'),packages,61999).
+i(section(4,'3.6.1','sec:crypto-ECDSA'),"ECDSA",swi_man_packages('ssl.html'),packages,63220).
+i(/(ecdsa_sign,4),"Create an ECDSA signature for Data with EC private key Key.",swi_man_packages('ssl.html'),packages,63398).
+i(/(ecdsa_verify,4),"True iff Signature can be verified as the ECDSA signature for Data, using the EC public key Key.",swi_man_packages('ssl.html'),packages,64350).
+i(section(4,'3.6.2','sec:crypto-RSA'),"RSA",swi_man_packages('ssl.html'),packages,64975).
+i(/(rsa_sign,4),"Create an RSA signature for Data with private key Key.",swi_man_packages('ssl.html'),packages,65147).
+i(/(rsa_verify,4),"Verify an RSA signature for Data with public key Key.",swi_man_packages('ssl.html'),packages,66897).
+i(section(3,'3.7','sec:crypto-asymmetric'),"Asymmetric encryption and decryption",swi_man_packages('ssl.html'),packages,67958).
+i(/(rsa_private_decrypt,4),"RSA Public key encryption and decryption primitives.",swi_man_packages('ssl.html'),packages,68380).
+i(/(rsa_private_encrypt,4),"RSA Public key encryption and decryption primitives.",swi_man_packages('ssl.html'),packages,68380).
+i(/(rsa_public_decrypt,4),"RSA Public key encryption and decryption primitives.",swi_man_packages('ssl.html'),packages,68380).
+i(/(rsa_public_encrypt,4),"RSA Public key encryption and decryption primitives.",swi_man_packages('ssl.html'),packages,68380).
+i(section(3,'3.8','sec:crypto-symmetric'),"Symmetric encryption and decryption",swi_man_packages('ssl.html'),packages,70620).
+i(/(crypto_data_encrypt,6),"Encrypt the given PlainText, using the symmetric algorithm Algorithm, key Key, and initialization vector (or nonce) IV, to give CipherText.",swi_man_packages('ssl.html'),packages,70974).
+i(/(crypto_data_decrypt,6),"Decrypt the given CipherText, using the symmetric algorithm Algorithm, key Key, and initialization vector IV, to give PlainText.",swi_man_packages('ssl.html'),packages,77089).
+i(section(3,'3.9','sec:crypto-numbertheory'),"Number theory",swi_man_packages('ssl.html'),packages,78928).
+i(/(crypto_modular_inverse,3),"Compute the modular multiplicative inverse of the integer X.",swi_man_packages('ssl.html'),packages,79291).
+i(/(crypto_generate_prime,3),"Generate a prime P with at least N bits.",swi_man_packages('ssl.html'),packages,79666).
+i(/(crypto_is_prime,2),"True iff P passes a probabilistic primality test.",swi_man_packages('ssl.html'),packages,80300).
+i(section(3,'3.10','sec:crypto-ec'),"Elliptic curves",swi_man_packages('ssl.html'),packages,80944).
+i(/(crypto_name_curve,2),"Obtain a handle for a named elliptic curve.",swi_man_packages('ssl.html'),packages,81644).
+i(/(crypto_curve_order,2),"Obtain the order of an elliptic curve.",swi_man_packages('ssl.html'),packages,82271).
+i(/(crypto_curve_generator,2),"Point is the generator of the elliptic curve Curve.",swi_man_packages('ssl.html'),packages,82631).
+i(/(crypto_curve_scalar_mult,4),"R is the result of N times Point on the elliptic curve Curve.",swi_man_packages('ssl.html'),packages,82902).
+i(section(3,'3.11','sec:crypto-shared-secret'),"Example: Establishing a shared secret",swi_man_packages('ssl.html'),packages,83307).
+i(section(2,'4','sec:ssl-xml-libs'),"XML cryptographic libraries",swi_man_packages('ssl.html'),packages,88103).
+i(section(3,'4.1','sec:saml'),"library(saml): SAML Authentication",swi_man_packages('ssl.html'),packages,88691).
+i(section(3,'4.2','sec:xmlenc'),"library(xmlenc): XML encryption library",swi_man_packages('ssl.html'),packages,92276).
+i(/(decrypt_xml,4),"KeyCallback may be called as follows: call(KeyCallback, name, KeyName, Key)call(KeyCallback, public_key, public_key(RSA), Key)call(KeyCallback, certificate, Certificate, Key)",swi_man_packages('ssl.html'),packages,92957).
+i(/(load_certificate_from_base64_string,2),"Loads a certificate from a string, adding newlines and header where appropriate so that OpenSSL 1.0.1+ will be able to parse it",swi_man_packages('ssl.html'),packages,93487).
+i(section(3,'4.3','sec:xmldsig'),"library(xmldsig): XML Digital signature",swi_man_packages('ssl.html'),packages,93850).
+i(/(xmld_signed_DOM,3),"Translate an XML DOM structure in a signed version.",swi_man_packages('ssl.html'),packages,94658).
+i(/(xmld_verify_signature,4),"Confirm that an ds:Signature element contains a valid signature.",swi_man_packages('ssl.html'),packages,95628).
+i(section(2,'5','sec:ssl-security'),"SSL Security",swi_man_packages('ssl.html'),packages,96454).
+i(section(2,'6','sec:crl'),"CRLs and Revocation",swi_man_packages('ssl.html'),packages,100808).
+i(section(4,'6.1','sec:disable-certificate'),"Disabling certificate checking",swi_man_packages('ssl.html'),packages,104008).
+i(section(4,'6.2','sec:ssl-safe-connection'),"Establishing a safe connection",swi_man_packages('ssl.html'),packages,104743).
+i(section(2,'7','sec:ssl-examples'),"Example code",swi_man_packages('ssl.html'),packages,107925).
+i(section(3,'7.1','sec:ssl-https-client'),"Accessing an HTTPS server",swi_man_packages('ssl.html'),packages,108539).
+i(section(3,'7.2','sec:ssl-https-server'),"Creating an HTTPS server",swi_man_packages('ssl.html'),packages,109335).
+i(section(3,'7.3','sec:https-proxy'),"HTTPS behind a proxy",swi_man_packages('ssl.html'),packages,114193).
+i(section(2,'8','sec:compatibility'),"Compatibility of the API",swi_man_packages('ssl.html'),packages,115765).
+i(section(2,'9','sec:ssl-acknowledgments'),"Acknowledgments",swi_man_packages('ssl.html'),packages,116801).
+i(section(0,'0','packages/tipc.html'),"Transparent Inter-Process Communications (TIPC) libraries",swi_man_packages('tipc.html'),packages,2809).
+i(section(2,'1','sec:tipc-main'),"Transparent Inter-Process Communications (TIPC)",swi_man_packages('tipc.html'),packages,5477).
+i(section(3,'1.1','sec:tipc-overview'),"Overview",swi_man_packages('tipc.html'),packages,6442).
+i(section(3,'1.2','sec:tipc-address-structures'),"TIPC Address Structures",swi_man_packages('tipc.html'),packages,12123).
+i(section(2,'2','sec:tipc-libraries'),"The TIPC libraries: library(tipc/...)",swi_man_packages('tipc.html'),packages,15621).
+i(section(3,'2.1','sec:tipc'),"library(tipc/tipc): TIPC Sockets",swi_man_packages('tipc.html'),packages,15819).
+i(/(tipc_socket,2),"Creates a TIPC-domain socket of the type specified by SocketType, and unifies it to an identifier, SocketId.",swi_man_packages('tipc.html'),packages,17537).
+i(/(tipc_close_socket,1),"Closes the indicated socket, making SocketId invalid.",swi_man_packages('tipc.html'),packages,18215).
+i(/(tipc_open_socket,3),"Opens two SWI-Prolog I/O-streams, one to deal with input from the socket and one with output to the socket.",swi_man_packages('tipc.html'),packages,19637).
+i(/(tipc_bind,3),"Associates/disassociates a socket with the name/3 or name_seq/3 address specified in Address.",swi_man_packages('tipc.html'),packages,20185).
+i(/(tipc_listen,2),"Listens for incoming requests for connections.",swi_man_packages('tipc.html'),packages,23043).
+i(/(tipc_accept,3),"Blocks on a server socket and waits for connection requests from clients.",swi_man_packages('tipc.html'),packages,23622).
+i(/(tipc_connect,2),"Provides a connection-oriented, client-interface to connect a socket to a given TIPC_address.",swi_man_packages('tipc.html'),packages,24074).
+i(/(tipc_get_name,2),"Unifies TIPC_address with the port-id assigned to the socket.",swi_man_packages('tipc.html'),packages,24510).
+i(/(tipc_get_peer_name,2),"Unifies TIPC_address with the port-id assigned to the socket that this socket is connected to.",swi_man_packages('tipc.html'),packages,24763).
+i(/(tipc_setopt,2),"Sets options on the socket.",swi_man_packages('tipc.html'),packages,25060).
+i(/(tipc_receive,4),"Waits for, and returns the next datagram.",swi_man_packages('tipc.html'),packages,26129).
+i(/(tipc_send,4),"sends a TIPC datagram to one or more destinations.",swi_man_packages('tipc.html'),packages,27645).
+i(/(tipc_canonical_address,2),"Translates a port_id/2 address into canonical TIPC form: tipc_address(Zone, Cluster, Node, Reference)It is provided for debugging an printing purposes only.",swi_man_packages('tipc.html'),packages,29042).
+i(/(tipc_service_exists,2),"Interrogates the TIPC topology server to see if a service is available at an advertised Address.",swi_man_packages('tipc.html'),packages,29583).
+i(/(tipc_service_exists,1),"Interrogates the TIPC topology server to see if a service is available at an advertised Address.",swi_man_packages('tipc.html'),packages,29583).
+i(/(tipc_service_probe,1),"Allows a user to discover the instance ranges and/or port-ids for a particular service.",swi_man_packages('tipc.html'),packages,30862).
+i(/(tipc_service_probe,2),"Allows a user to discover the instance ranges and/or port-ids for a particular service.",swi_man_packages('tipc.html'),packages,30862).
+i(/(tipc_service_port_monitor,2),"Monitors a collection of worker threads that are bound to a list of Addresses.",swi_man_packages('tipc.html'),packages,31576).
+i(/(tipc_service_port_monitor,3),"Monitors a collection of worker threads that are bound to a list of Addresses.",swi_man_packages('tipc.html'),packages,31576).
+i(/(tipc_initialize,0),"causes the TIPC service and the TIPC stack to be initialized and made ready for service.",swi_man_packages('tipc.html'),packages,33819).
+i(section(3,'2.2','sec:tipcbroadcast'),"library(tipc/tipc_broadcast): A TIPC Broadcast Bridge",swi_man_packages('tipc.html'),packages,34223).
+i(section(4,'2.2.1','sec:tipc-caveats'),"Caveats",swi_man_packages('tipc.html'),packages,39295).
+i(/(tipc_host_to_address,2),"locates a TIPC service by name.",swi_man_packages('tipc.html'),packages,43210).
+i(/(tipc_initialize,0),"See tipc:tipc_initialize/0",swi_man_packages('tipc.html'),packages,44021).
+i(section(3,'2.3','sec:tipcpaxos'),"library(tipc/tipc_paxos): Paxos on TIPC",swi_man_packages('tipc.html'),packages,44241).
+i(/(tipc_paxos_set,1),"",swi_man_packages('tipc.html'),packages,44762).
+i(/(tipc_paxos_get,1),"",swi_man_packages('tipc.html'),packages,44762).
+i(/(tipc_paxos_get,2),"",swi_man_packages('tipc.html'),packages,44762).
+i(/(tipc_paxos_set,2),"",swi_man_packages('tipc.html'),packages,44762).
+i(/(tipc_paxos_on_change,2),"",swi_man_packages('tipc.html'),packages,44762).
+i(/(tipc_initialize,0),"causes the TIPC service and the TIPC stack to be initialized and made ready for service.",swi_man_packages('tipc.html'),packages,45537).
+i(section(3,'2.4','sec:tipclinda'),"library(tipc/tipc_linda): A Process Communication Interface",swi_man_packages('tipc.html'),packages,45941).
+i(section(4,'2.4.1','sec:tipc-linda-servers'),"Servers",swi_man_packages('tipc.html'),packages,50602).
+i(section(4,'2.4.2','sec:tipc-linda-clients'),"Clients",swi_man_packages('tipc.html'),packages,51224).
+i(/(linda,0),"Starts a Linda-server in this process.",swi_man_packages('tipc.html'),packages,51734).
+i(/(linda,1),"Starts a Linda-server in this process.",swi_man_packages('tipc.html'),packages,51734).
+i(/(linda_client,1),"Establishes a connection to a Linda-server providing a named tuple space.",swi_man_packages('tipc.html'),packages,52927).
+i(/(close_client,0),"Closes the connection to the Linda-server.",swi_man_packages('tipc.html'),packages,53499).
+i(/(linda_timeout,2),"Controls Linda's message-passing timeout.",swi_man_packages('tipc.html'),packages,53753).
+i(/(linda_timeout,1),"Temporarily sets Linda's timeout.",swi_man_packages('tipc.html'),packages,55120).
+i(/(out,1),"Places a Tuple in Linda's tuple-space.",swi_man_packages('tipc.html'),packages,55639).
+i(/(in,1),"Atomically removes the tuple Tuple from Linda's tuple-space if it is there.",swi_man_packages('tipc.html'),packages,55832).
+i(/(in_noblock,1),"Atomically removes the tuple Tuple from Linda's tuple-space if it is there.",swi_man_packages('tipc.html'),packages,56257).
+i(/(in,2),"As in/1 but succeeds when any one of the tuples in TupleList is available.",swi_man_packages('tipc.html'),packages,56578).
+i(/(rd,1),"Succeeds nondeterministically if Tuple is available in the tuple-space, suspends otherwise until it is available.",swi_man_packages('tipc.html'),packages,56905).
+i(/(rd_noblock,1),"Succeeds nondeterministically if Tuple is available in the tuple-space, fails otherwise.",swi_man_packages('tipc.html'),packages,57259).
+i(/(rd,2),"As in/2 but provides a choice point that does not remove any tuples.",swi_man_packages('tipc.html'),packages,57562).
+i(/(bagof_in_noblock,3),"Bag is the list of all instances of Template such that Tuple exists in the tuple-space.",swi_man_packages('tipc.html'),packages,57822).
+i(/(bagof_rd_noblock,3),"Bag is the list of all instances of Template such that Tuple exists in the tuple-space.",swi_man_packages('tipc.html'),packages,57822).
+i(/(linda_eval,1),"Causes Goal to be evaluated in parallel with a parent predicate.",swi_man_packages('tipc.html'),packages,58993).
+i(/(linda_eval,2),"Causes Goal to be evaluated in parallel with a parent predicate.",swi_man_packages('tipc.html'),packages,58993).
+i(/(linda_eval_detached,1),"Causes Goal to be evaluated in parallel with a parent predicate.",swi_man_packages('tipc.html'),packages,58993).
+i(/(linda_eval_detached,2),"Causes Goal to be evaluated in parallel with a parent predicate.",swi_man_packages('tipc.html'),packages,58993).
+i(/(tuple,1),"registers Head as a virtual tuple in TIPC Linda's tuple space.",swi_man_packages('tipc.html'),packages,61792).
+i(/(tuple,2),"registers Head as a virtual tuple in TIPC Linda's tuple space.",swi_man_packages('tipc.html'),packages,61792).
+i(/(tipc_linda_server,0),"Acts as a stand-alone Linda server.",swi_man_packages('tipc.html'),packages,63671).
+i(/(tipc_initialize,0),"See tipc:tipc_initialize/0.",swi_man_packages('tipc.html'),packages,64783).
+i(section(0,'0','packages/readline.html'),"SWI-Prolog binding to GNU readline",swi_man_packages('readline.html'),packages,2786).
+i(section(2,'1','sec:readline'),"library(readline): GNU readline interface",swi_man_packages('readline.html'),packages,3542).
+i(/(rl_read_init_file,1),"Read a GNU readline config file.",swi_man_packages('readline.html'),packages,4460).
+i(/(rl_add_history,1),"Add a line to the history.",swi_man_packages('readline.html'),packages,4705).
+i(/(rl_write_history,1),"Save the history to File.",swi_man_packages('readline.html'),packages,4896).
+i(/(rl_read_history,1),"Read a saved history from File.",swi_man_packages('readline.html'),packages,5212).
